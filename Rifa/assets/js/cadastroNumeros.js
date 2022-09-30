@@ -420,648 +420,284 @@ let cadastroNumeros = [
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '61',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '62',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '63',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '64',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '65',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '66',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '67',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '68',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '69',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '70',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '71',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '72',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '73',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '74',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '75',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '76',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '77',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '78',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '79',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '80',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '81',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '82',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '83',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '84',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '85',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '86',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '87',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '88',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '89',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '90',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '91',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '92',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '93',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '94',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '95',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '96',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '97',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '98',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '99',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '12',
+        numero: '100',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '12',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   
+     
 ];
