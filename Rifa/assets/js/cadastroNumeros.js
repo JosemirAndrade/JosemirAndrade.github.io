@@ -1,17 +1,17 @@
 let cadastroNumeros = [
     {
-        numero: '0001',
-        situacao: 'Pago',
-        participante: 'Paulo de Assis Melo',
+        numero: '01',
+        situacao: '',
+        participante: '',
         clicado: true,
-        telefone: '(88) 98110-8634'
+        telefone: ''
     },
     {
-        numero: '0002',
-        situacao: 'Pago',
-        participante: 'Paulo de Assis Melo',
+        numero: '02',
+        situacao: '',
+        participante: '',
         clicado: true,
-        telefone: '(88) 98110-8634'
+        telefone: ''
     },
     {
         numero: '0003',
