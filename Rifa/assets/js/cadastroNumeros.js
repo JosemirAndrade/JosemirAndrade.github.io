@@ -1,9 +1,9 @@
 let cadastroNumeros = [
     {
         numero: '01',
-        situacao: '',
+        situacao: 'Disponível',
         participante: '',
-        clicado: true,
+        clicado: false,
         telefone: ''
     },
     {
