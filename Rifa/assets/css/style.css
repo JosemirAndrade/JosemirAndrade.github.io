@@ -84,7 +84,7 @@ section #container-apresentacao {
     padding-top: 10px;
     border-top: 1px solid #424242;
 }
-/*FUNDO DA PÁGINA*/
+/*----------------------------------FUNDO DAOS TÓPICOS-------------------------------------------------------------*/
 #container-info-geral {
     display: flex;
     flex-direction: column;
@@ -96,6 +96,7 @@ section #container-apresentacao {
     width: 320px;
     height: 410px;
 }
+/*---------------------------------------------------------------------------------------------------*/
 .info-geral {
     display: flex;
     flex-direction: column;
@@ -106,7 +107,7 @@ section #container-apresentacao {
     border-radius: 5px;
     margin: 10px 0;
     color: #FFFFFF;
-    background-color: #424242;
+    background-color: #FFFF00;
 }
 .info-geral-tittle {
     border-bottom: 1px solid #333333;
@@ -127,8 +128,9 @@ section #container-apresentacao {
     font-size: 0.9rem;
     line-height: 20px;
 }
+/*2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222*/
 .info-geral-conteudo a {
-    color: #FFFFFF;
+    color: #FFA500;
 }
 .info-geral-conteudo a:hover {
     color: #11c76f;
