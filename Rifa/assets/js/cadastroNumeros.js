@@ -217,7 +217,7 @@ let cadastroNumeros = [
         telefone: ''
     },
    {
-        numero: '32- Conjunto de formas   ',
+        numero: '32- Conjunto de formas',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
@@ -238,7 +238,7 @@ let cadastroNumeros = [
         telefone: ''
     },
    {
-        numero: '35- Formas de pudim ',
+        numero: '35- Formas de pudim',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
@@ -259,7 +259,7 @@ let cadastroNumeros = [
         telefone: ''
     },
    {
-        numero: '38- Conjunto de canecas ',
+        numero: '38- Conjunto de canecas',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
@@ -350,7 +350,7 @@ let cadastroNumeros = [
         telefone: ''
     },
    {
-        numero: '51- A ESCOLHA ',
+        numero: '51- A ESCOLHA',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
