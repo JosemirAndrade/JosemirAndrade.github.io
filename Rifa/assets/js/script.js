@@ -69,14 +69,14 @@ function criarNumeros() {
   });
   ntodos.innerHTML = cadastroNumeros.length;
 
-  let numerosDisponiveis = cadastroNumeros.filter(item => item.situacao === 'Disponível').length;
-  ndisponiveis.innerHTML = numerosDisponiveis;
+  //let numerosDisponiveis = cadastroNumeros.filter(item => item.situacao === 'Disponível').length;
+  //ndisponiveis.innerHTML = numerosDisponiveis;
 
  // let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
  //nreservados.innerHTML = numerosReservados;
 
-  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
-  npagos.innerHTML = numerosPagos;
+//  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
+ // npagos.innerHTML = numerosPagos;
 }
 
 function clicou(n) {
@@ -141,7 +141,7 @@ function x() {
   inputNome.placeholder = 'Insira seu nome completo ';
   inputCelular.placeholder = 'Insira seu celular com DDD';
   legendCelular.innerHTML = 'Celular:';
-  legendCelular.style.color = '#FDF5E6'; //FUNDO AVISOS
+  legendCelular.style.color = '#02c288'; //---------------------------------- FUNDO AVISOS
 }
 
 function mascaraCelular() {
@@ -174,12 +174,12 @@ function reservar() {
   }
 
 
-function voltarReserva() {
-  mostrandoCompra.style.display = 'flex';
-  mostrandoPIX.style.display = 'none';
-  btnCopiarPicpay.innerHTML = '88981062656';
-  btnCopiarPicpay.style.color = '#FFFFFF';
-  btnCopiarC6bank.innerHTML = 'quilbrub@gmail.com';
-  btnCopiarC6bank.style.color = '#FFFFFF';
+//function voltarReserva() {
+  //mostrandoCompra.style.display = 'flex';
+  //mostrandoPIX.style.display = 'none';
+  //btnCopiarPicpay.innerHTML = '88981062656';
+  //btnCopiarPicpay.style.color = '#FFFFFF';
+  //btnCopiarC6bank.innerHTML = 'quilbrub@gmail.com';
+  //btnCopiarC6bank.style.color = '#FFFFFF';
 }
 };
