@@ -91,12 +91,12 @@ section #container-apresentacao {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #FFFACD	;
+    background-color: #FFDEAD	;   /*------------------- BEGE ---------------------------*/
     margin: 5px 5px;
     width: 320px;
     height: 410px;
 }
-/*---------------------------------------------------------------------------------------------------*/
+/*----------------QUADRADOS COM AS INFORMAÇÕES DENTRO DOS TOPICOS-----------------------------------------------------------------------------------*/
 .info-geral {
     display: flex;
     flex-direction: column;
