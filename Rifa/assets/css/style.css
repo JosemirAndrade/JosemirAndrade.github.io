@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;#FFB6C1
+    font-family: 'Roboto', sans-serif;#fafcd4
 }
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFB6C1	;   /*------------------- LightPink	 ---------------------------*/
+    background-color: #fafcd4	;   /*------------------- LightPink	 ---------------------------*/
 }
 header {
     display: flex;
@@ -91,7 +91,7 @@ section #container-apresentacao {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #FFEFD5		;   /*------------------- BEGE ---------------------------*/
+    background-color: #fcffba		;   /*------------------- CREME ---------------------------*/
     margin: 5px 5px;
     width: 320px;
     height: 410px;
@@ -107,7 +107,7 @@ section #container-apresentacao {
     border-radius: 5px;
     margin: 10px 0;
     color: #FFFFFF;
-    background-color: ##FFF8DC;
+    background-color: #fafcd4;
 }
 .info-geral-tittle {
     border-bottom: 1px solid #333333;
@@ -130,7 +130,7 @@ section #container-apresentacao {
 }
 /*2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222*/
 .info-geral-conteudo a {
-    color: #FFA500;
+    color: #121211;
 }
 .info-geral-conteudo a:hover {
     color: #11c76f;
