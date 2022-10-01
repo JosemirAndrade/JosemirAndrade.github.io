@@ -174,12 +174,12 @@ function reservar() {
   }
 
 
-//function voltarReserva() {
-  //mostrandoCompra.style.display = 'flex';
-  //mostrandoPIX.style.display = 'none';
-  //btnCopiarPicpay.innerHTML = '88981062656';
-  //btnCopiarPicpay.style.color = '#FFFFFF';
-  //btnCopiarC6bank.innerHTML = 'quilbrub@gmail.com';
-  //btnCopiarC6bank.style.color = '#FFFFFF';
+function voltarReserva() {
+  mostrandoCompra.style.display = 'flex';
+  mostrandoPIX.style.display = 'none';
+  btnCopiarPicpay.innerHTML = '88981062656';
+  btnCopiarPicpay.style.color = '#FFFFFF';
+  btnCopiarC6bank.innerHTML = 'quilbrub@gmail.com';
+  btnCopiarC6bank.style.color = '#FFFFFF';
 }
 };
