@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;#FFDEAD
 }
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #00FF00	;
+    background-color: #FFDEAD	;   /*------------------- BEGE ---------------------------*/
 }
 header {
     display: flex;
