@@ -3,50 +3,43 @@ let cadastroNumeros = [
         numero: '01- Copo medidor',
         situacao: 'Reservado',
         participante: 'Josemir',
-        clicado: true,
-        telefone: '(88)998301499'
+        clicado: true
     },
     {
         numero: '02- Afiador de faca',
         situacao: 'Reservado',
         participante: 'Josi',
-        clicado: true,
-        telefone: '(88)999285567'
+        clicado: true
     },
     {
         numero: '03- Descanso de panela e colher ',
         situacao: 'Disponível',
         participante: '',
-        clicado: false,
-        telefone: ''
+        clicado: false
     },
     {
         numero: '04- Petisqueira',
         situacao: 'Disponível',
         participante: '',
-        clicado: false,
-        telefone: ''
+        clicado: false
     },
     {
         numero: '05- Escumadeira',
         situacao: 'Disponível',
         participante: '',
-        clicado: false,
-        telefone: ''
+        clicado: false
     },
     {
         numero: '06- Cabides(conj.)',
         situacao: 'Disponível',
         participante: '',
-        clicado: false,
-        telefone: ''
+        clicado: false
     },
     {
         numero: '07- Descascador de legumes',
         situacao: 'Disponível',
         participante: '',
-        clicado: false,
-        telefone: ''
+        clicado: false
     },
     {
         numero: '08- Conjunto de peneiras',
