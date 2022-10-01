@@ -1,6 +1,6 @@
 let cadastroNumeros = [
     {
-        numero: '01 Copo medidor',
+        numero: '01 - Copo medidor',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
@@ -14,21 +14,21 @@ let cadastroNumeros = [
         telefone: ''
     },
     {
-        numero: '03',
+        numero: '03 - Descanso de panela e colher ',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '04',
+        numero: '04 - Petisqueira',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '05',
+        numero: '05 - Escumadeira',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
