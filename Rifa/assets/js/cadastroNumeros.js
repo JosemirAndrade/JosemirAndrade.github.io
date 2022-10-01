@@ -1,13 +1,13 @@
 let cadastroNumeros = [
     {
         numero: '01 - Copo medidor',
-        situacao: 'Disponível',
+        situacao: 'Reservado',
         participante: '',
         clicado: true,
         telefone: ''
     },
     {
-        numero: '02 - Afiador de faca ',
+        numero: '02 - AfiadRor de faca ',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
