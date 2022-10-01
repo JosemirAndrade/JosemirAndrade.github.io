@@ -7,17 +7,17 @@ let mostrarProsseguir = document.querySelector('#container-prosseguir');
 let numSelecionados = document.querySelector('#num-selecionados');
 let ntodos = document.querySelector('.ntodos .qnumber');
 let ndisponiveis = document.querySelector('.ndisponiveis .qnumber');
-let nreservados = document.querySelector('.nreservados .qnumber');
-let npagos = document.querySelector('.npagos .qnumber');
-let valorPagar = document.querySelector('#valor-pagar span');
+//let nreservados = document.querySelector('.nreservados .qnumber');
+//let npagos = document.querySelector('.npagos .qnumber');
+//let valorPagar = document.querySelector('#valor-pagar span');
 let inputNome = document.querySelector('#nome');
 let inputCelular = document.querySelector('#celular');
 let legendCelular = document.querySelector('#legendCelular');
 let mostrandoCompra = document.querySelector('#prosseguir-compra');
-let mostrandoPIX = document.querySelector('#prosseguir-PIX');
-let urlZap = 'https://api.whatsapp.com/send?phone=5588981062656&text=';
+//let mostrandoPIX = document.querySelector('#prosseguir-PIX');
+let urlZap = 'https://api.whatsapp.com/send?phone=5588998301499&text=';
 
-let valorNumero = 5;
+//let valorNumero = 5;
 let carrinho = [];
 
 //Slide de Fotos
