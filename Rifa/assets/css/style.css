@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;#FFDEAD
+    font-family: 'Roboto', sans-serif;#FFB6C1
 }
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFDEAD	;   /*------------------- BEGE ---------------------------*/
+    background-color: #FFB6C1	;   /*------------------- LightPink	 ---------------------------*/
 }
 header {
     display: flex;
@@ -91,7 +91,7 @@ section #container-apresentacao {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #FFDEAD	;   /*------------------- BEGE ---------------------------*/
+    background-color: #FFEFD5		;   /*------------------- BEGE ---------------------------*/
     margin: 5px 5px;
     width: 320px;
     height: 410px;
