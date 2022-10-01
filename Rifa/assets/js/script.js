@@ -7,7 +7,7 @@ let mostrarProsseguir = document.querySelector('#container-prosseguir');
 let numSelecionados = document.querySelector('#num-selecionados');
 let ntodos = document.querySelector('.ntodos .qnumber');
 let ndisponiveis = document.querySelector('.ndisponiveis .qnumber');
-//let nreservados = document.querySelector('.nreservados .qnumber');
+let nreservados = document.querySelector('.nreservados .qnumber');
 //let npagos = document.querySelector('.npagos .qnumber');
 //let valorPagar = document.querySelector('#valor-pagar span');
 let inputNome = document.querySelector('#nome');
@@ -165,14 +165,14 @@ function reservar() {
     //legendCelular.style.color = '#FF0000';
   }else {
     let msg = `Nome: ${inputNome.value};%0AQnt: ${carrinho.length};%0ANúmero(s): ${carrinho}.`;
-	  //%0ACelular: ${inputCelular.value};
+    //%0ACelular: ${inputCelular.value};
     let msgEditada = msg.replace(/ /g, '%20');
     let msg = `Nome: ${inputNome.value};%0AQnt: ${carrinho.length};//%0AValor: R$ ${carrinho.length * valorNumero},00;%0ANúmero(s): ${carrinho}.`;
     //%0ACelular: ${inputCelular.value};
     let msgEditada = msg.replace(/ /g, '%20');
 
     window.open(`${urlZap}${msgEditada}`, '_blank');
-   // legendCelular.innerHTML = 'Celular:';
+    //legendCelular.innerHTML = 'Celular:';
     //legendCelular.style.color = '#FFFFFF';
   }
 
