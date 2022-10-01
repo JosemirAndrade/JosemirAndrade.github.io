@@ -31,17 +31,19 @@
           </div>
           <div class="info-geral title-premio">
             <div class="info-geral-tittle">Escolha um ou mais números e concorra aos prêmios abaixo:</div>
-            <div class="info-geral-conteudo"> 1º PRÊMIO - 1 kit Natura </div>
-            <div class="info-geral-conteudo"> 2º PRÊMIO - 1 kit Natura </div>
-            <div class="info-geral-conteudo"> 3º PRÊMIO - 1 Dia de Spa  </div>
+            <div class="info-geral-conteudo"> 1º PRÊMIO - Pix de R$50,00 </div>
+            <div class="info-geral-conteudo"> 2º PRÊMIO - 1 kit Boticário </div>
+            <div class="info-geral-conteudo"> 3º PRÊMIO - 1 kit Boticário </div>
+             <div class="info-geral-conteudo">4º PRÊMIO - 1 Dia de Spa </div>
           </div>
         </div>
         <div id="container-info-geral">
           <div class="info-geral">
             <div class="info-geral-tittle">Escolhendo números nesses intervalos, você concorrerá aos prêmios correspondentes.</div>
             <div class="info-geral-conteudo"> 1º PRÊMIO- (1 ao 20)</div>
-            <div class="info-geral-conteudo"> 2º PRÊMIO- (21 ao 40)</div>
-            <div class="info-geral-conteudo"> 3º PRÊMIO- (41 ao 80)</div>
+            <div class="info-geral-conteudo"> 2º PRÊMIO- (21 ao 45)</div>
+            <div class="info-geral-conteudo"> 3º PRÊMIO- (46 ao 72)</div>
+            <div class="info-geral-conteudo"> 4º PRÊMIO- (73 ao 80)</div>
           </div>
           </div>
           <div class="info-geral">
@@ -68,21 +70,25 @@
         <div id="container-info-number">
           <div id="info-number-tittle">Números</div>
           <div id="info-number-qnt">
+          
             <div class="number-qnt ndisponiveis">Disponíveis<span class="qnumber"></span></div>
             <div class="number-qnt nreservados">Reservados<span class="qnumber"></span></div>
-           </div>
+            
+          </div>
         </div>
         <div id="container-numbers"></div>
       </div>
       <div id="container-bilhete">
         <div id="mostrar-bilhete">
-          <div id="number-bilhete">Bilhete: </div>
-          <div id="situacao">Status: </div>
-          <div id="participante">Participante:  </div>
+          <div id="number-bilhete">Bilhete: 0001</div>
+          <div id="situacao">Status: Pago</div>
+          <div id="participante">Participante: Quilion Oliveira</div>
+         
           <button id="button-ok" onclick="ok()">OK</button>
         </div>
       </div>
-      <div id="mostrar-carinho">    
+      <div id="mostrar-carinho">
+        
         <div id="prosseguir" onclick="prosseguir()">Prosseguir</div>
       </div>
       <div id="container-prosseguir">
@@ -111,16 +117,17 @@
             <button id="button-X" onclick="x()">X</button>
           </div>
           <div id="info-compra">
-                       
+            <div id="valor-pagar">Valor a pagar: <span> R$ 10,00</span></div>
+            
           </div>
           <div id="dados-cliente">
-            <span>Por favor, preencha os campos abaixo:</span>
+            
             <legend>Nome Completo:</legend>
             <div class="dados">
               <img src="./assets/images/icouser.svg" alt="">
               <input type="text" name="nome" id="nome" pattern="[a-z\s]+$" placeholder="Insira seu nome completo"> 
             </div>
-            <legend id="legendCelular">Celular:</legend>
+            
             <div class="dados">
               <img src="./assets/images/icophone.svg" alt="">
               <input type="text" name="celular" id="celular" placeholder="Insira seu whatsapp com DDD" maxlength="15" onkeyup="mascaraCelular()">
@@ -129,11 +136,9 @@
             <div id="num-selecionados">
               
             </div>
-            
             <div id="compra-buttons">
               <div id="cancelar" onclick="x()">Cancelar</div>
               <div id="reservar" onclick="reservar()">Reservar</div>
-              
             </div>
           </div>
         </div>
@@ -141,15 +146,15 @@
     </section>
     <footer>
       <div id="ref">
-        <p>#######</p>
-        <a href="">#########</a>
+        <p>Codificado com muito entusiasmo por</p>
+        <a href="">Quilion Oliveira</a>
       </div>
       <div id="banner--logos--footer">
-        <a href="" target="_blank">
+        <a href="https://github.com/QuiLion7?tab=repositories" target="_blank">
           <img src="./assets/images/github.png" />
         </a>
         <a
-          href=""
+          href="https://www.linkedin.com/in/quilion-oliveira-18820b31/"
           target="_blank"
         >
           <img src="./assets/images/linkedin.png" />
@@ -157,10 +162,10 @@
         <a href="mailto:quilbrub@gmail.com" target="_blank">
           <img src="./assets/images/gmail.png" />
         </a>
-        <a href="" target="_blank">
+        <a href="https://www.instagram.com/quilion7/" target="_blank">
           <img src="./assets/images/instagram.png" />
         </a>
-        <a href="" target="_blank">
+        <a href="https://www.facebook.com/QuiLion/" target="_blank">
           <img src="./assets/images/facebook.png" />
         </a>
       </div>
