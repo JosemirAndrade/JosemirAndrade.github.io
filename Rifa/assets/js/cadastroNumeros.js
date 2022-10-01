@@ -1,14 +1,13 @@
 let cadastroNumeros = [
     {
-        numero: '01 
-             Copo medidor  ',
+        numero: '01 - Copo medidor  ',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '02',
+        numero: '02 - Afiador de faca ',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
@@ -560,145 +559,5 @@ let cadastroNumeros = [
         clicado: false,
         telefone: ''
     },
-   {
-        numero: '81',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '82',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '83',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '84',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '85',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '86',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '87',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '88',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '89',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '90',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '91',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '92',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '93',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '94',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '95',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '96',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '97',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '98',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '99',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-   {
-        numero: '100',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
-    },
-     
+  
 ];
