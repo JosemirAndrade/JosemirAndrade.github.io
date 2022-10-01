@@ -8,7 +8,7 @@ let cadastroNumeros = [
     },
     {
         numero: '02- Afiador de faca',
-        situacao: 'Resrvado',
+        situacao: 'Reservado',
         participante: 'Josi',
         clicado: true,
         telefone: '(88)999285567'
