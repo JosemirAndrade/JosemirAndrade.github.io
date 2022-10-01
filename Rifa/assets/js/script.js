@@ -172,12 +172,7 @@ function reservar() {
     legendCelular.innerHTML = 'Celular:';
     legendCelular.style.color = '#FFFFFF';
   }
-}
 
-function mostrarPIX() {
-  mostrandoCompra.style.display = 'none';
-  mostrandoPIX.style.display = 'flex';
-}
 
 function voltarReserva() {
   mostrandoCompra.style.display = 'flex';
@@ -187,35 +182,4 @@ function voltarReserva() {
   btnCopiarC6bank.innerHTML = 'quilbrub@gmail.com';
   btnCopiarC6bank.style.color = '#FFFFFF';
 }
-
-//Eventos de Click para botões de copiar texto
-let codigoPagamentoPicpay = '88981062656';
-let btnCopiarPicpay = document.querySelector('.copiarCodigoPagamento.picpayButton');
-btnCopiarPicpay.addEventListener('click', () => {
-  navigator.clipboard.writeText(codigoPagamentoPicpay).then();
-  btnCopiarPicpay.innerHTML = 'COPIADO!';
-  btnCopiarPicpay.style.color = '#11c76f';
-});
-
-//let codigoPagamentoC6bank = 'quilbrub@gmail.com';
-//let btnCopiarC6bank = document.querySelector('.copiarCodigoPagamento.c6bankButton');
-//btnCopiarC6bank.addEventListener('click', () => {
-  //navigator.clipboard.writeText(codigoPagamentoC6bank).then();
-  //btnCopiarC6bank.innerHTML = 'COPIADO!';
-  //btnCopiarC6bank.style.color = '#11c76f';
-//});
-
-//Eventos de Click para botões Enviar Comprovante
-//let enviarComprovantePagamentoPicpay = document.querySelector('.enviarComprovantePagamento.picpayButton');
-//enviarComprovantePagamentoPicpay.addEventListener('click', () => {
-  //let msgEnviarComprovantePicpay = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0APicPay`;
-  //let urlEnviarComprovantePickpay = msgEnviarComprovantePicpay.replace(/ /g, '%20');
-  //window.open(`${urlZap}${urlEnviarComprovantePickpay}`, '_blank');
-//});
-//let enviarComprovantePagamentoC6bank = document.querySelector('.enviarComprovantePagamento.c6bankButton');
-//enviarComprovantePagamentoC6bank.addEventListener('click', () => {
-  //let msgEnviarComprovanteC6bank = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0AC6 Bank`;
-  //let urlEnviarComprovanteC6bank = msgEnviarComprovanteC6bank.replace(/ /g, '%20');
-  //window.open(`${urlZap}${urlEnviarComprovanteC6bank}`, '_blank');
-//});
-
+};
