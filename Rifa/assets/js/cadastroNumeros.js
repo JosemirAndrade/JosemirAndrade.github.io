@@ -2,16 +2,16 @@ let cadastroNumeros = [
     {
         numero: '01- Copo medidor',
         situacao: 'Reservado',
-        participante: '',
+        participante: 'Josemir',
         clicado: true,
-        telefone: ''
+        telefone: '(88)998301499'
     },
     {
-        numero: '02- Afiador de faca ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
-        telefone: ''
+        numero: '02- Afiador de faca',
+        situacao: 'Resrvado',
+        participante: 'Josi',
+        clicado: true,
+        telefone: '(88)999285567'
     },
     {
         numero: '03- Descanso de panela e colher ',
