@@ -1,209 +1,209 @@
 let cadastroNumeros = [
     {
-        numero: '01 - Copo medidor',
+        numero: '01 Copo medidor',
         situacao: 'Reservado',
         participante: '',
         clicado: true,
         telefone: ''
     },
     {
-        numero: '02 - AfiadRor de faca ',
+        numero: '02 Afiador de faca ',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '03 - Descanso de panela e colher ',
+        numero: '03 Descanso de panela e colher ',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '04 - Petisqueira',
+        numero: '04 Petisqueira',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '05 - Escumadeira',
+        numero: '05 Escumadeira',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '06',
+        numero: '06 Cabides(conjunto)',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '07',
+        numero: '07 Descascador de legumes',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '08',
+        numero: '08 Conjunto de peneiras',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '09',
+        numero: '09 Cesta de pão',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '10',
+        numero: '10 Kit tapete pra banheiro',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '11',
+        numero: '11 Jogo americano',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
     {
-        numero: '12',
+        numero: '12 Baldes plásticos (2un)',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '13',
+        numero: '13 Lixeira pra pia e banheiro',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '14',
+        numero: '14 Ralador',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '15',
+        numero: '15 Conjunto de conchas',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '16',
+        numero: '16 Pano de prato (4un)',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '17',
+        numero: '17 Cesto de roupas',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '18',
+        numero: '18 Kit Toalha de mão',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '19',
+        numero: '19 Tábua de corte',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '20',
+        numero: '20 Toalha de rosto (4un)',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '21',
+        numero: '21 Jogo de xícaras',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '20',
+        numero: '22 A ESCOLHA',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '23',
+        numero: '23 Potes Plásticos Multiuso (conj)',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '24',
+        numero: '24 Saladeira',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '25',
+        numero: '25 Toalha de banho (2un)',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '26',
+        numero: '26 Conjunto de bandejas',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '27',
+        numero: '27 Potes pra microndas e freezer',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '28',
+        numero: '28 Kit tapete de cozinha',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '29',
+        numero: '29 A ESCOLHA',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
         telefone: ''
     },
    {
-        numero: '30',
+        numero: '30 Escorredor de pratos',
         situacao: 'Disponível',
         participante: '',
         clicado: false,
