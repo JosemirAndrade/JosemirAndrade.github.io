@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #272727;
+    background-color: #00FF00	;
 }
 header {
     display: flex;
@@ -21,7 +21,7 @@ header {
     background: #272727;
     color: #FFFFFF;
     text-align: center;
-    box-shadow: 0 0 20px #000000;
+    box-shadow: 0 0 20px #A020F0;
 }
 section {
     width: 100%;
