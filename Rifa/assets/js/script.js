@@ -75,8 +75,8 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
-  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
-  npagos.innerHTML = numerosPagos;
+  //let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
+  //npagos.innerHTML = numerosPagos;
 }
 
 function clicou(n) {
@@ -87,12 +87,11 @@ function clicou(n) {
   carrinho.sort((a,b) => a- b);
 
   cadastroNumeros.filter(item => {
-    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'Pago')) {
+    if(n === item.numero && (item.situacao === 'Reservado'){
       mostrarBilhete.style.display = 'flex';
       mostrarNumero.innerHTML = `Bilhete: ${item.numero}`;
       mostrarSituacao.innerHTML = `Status: ${item.situacao}`;
       mostrarParticipante.innerHTML = `Participante: ${item.participante}`;
-      mostrarTelefone.innerHTML = `Celular: ${item.telefone}`;
     }else if(n === item.numero && item.situacao === 'Disponível'){
       let numberId = document.getElementById(`${item.numero}`);
       numberId.classList.toggle('clicado');
@@ -114,9 +113,7 @@ function addCarrinho() {
   }else {
     mostrarCarrinho.style.display = 'none';
   }
-  let quantoCusta = document.querySelector('#quanto-custa');
-  quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;
-  
+
 }
 
 function prosseguir() {
@@ -126,7 +123,7 @@ function prosseguir() {
 }
 
 function reservando() {
-  valorPagar.innerHTML = `R$ ${carrinho.length * valorNumero},00`;
+ 
 }
 
 function ok(){
@@ -139,29 +136,11 @@ function x() {
     mostrarCarrinho.style.display = 'flex';
   }
   inputNome.placeholder = 'Insira seu nome completo ';
-  inputCelular.placeholder = 'Insira seu celular com DDD';
-  legendCelular.innerHTML = 'Celular:';
-  legendCelular.style.color = '#FFFFFF';
-}
-
-function mascaraCelular() {
-  let celular = document.querySelector('#celular');
-  if(celular.value.length == 1) {
-    celular.value = '(' + celular.value;
-  }else if(celular.value.length == 3) {
-    celular.value += ')' + ' ';
-  }else if(celular.value.length == 10) {
-    celular.value += '-'
-  }
 }
 
 function reservar() {
   if(inputNome.value === ''|| inputCelular.value === '') {
     inputNome.placeholder = 'OBRIGATÓRIO ';
-    inputCelular.placeholder = 'OBRIGATÓRIO ';
-  }else if(inputCelular.value.length < 15) {
-    legendCelular.innerHTML = 'INCOMPLETO:';
-    legendCelular.style.color = '#FF0000';
   }else {
     let msg = `Nome: ${inputNome.value};%0ACelular: ${inputCelular.value};%0AQnt: ${carrinho.length};%0AValor: R$ ${carrinho.length * valorNumero},00;%0ANúmero(s): ${carrinho}.`;
     let msgEditada = msg.replace(/ /g, '%20');
