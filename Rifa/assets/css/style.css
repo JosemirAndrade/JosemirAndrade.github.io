@@ -191,21 +191,21 @@ section #container-info-number-geral{
     color: #FFFFFF;
 }
 .ndisponiveis {
-    background-color: #8fffa2; /* STATUS DISPONIVEL*/
+    background-color: #018f19; /* STATUS DISPONIVEL*/
 }
 .nreservados {
     color: #FFFFFF;
-    background-color: #f5aa0a; /* STATUS RESERVADO*/
+    background-color: #f77205; /* STATUS RESERVADO*/
 } 
 .nreservados .qnumber {
-    background-color: #2f8eae;
+    background-color: #f77205; /* STATUS RESERVADO*/
 }
 .npagos {
     color: #FFFFFF;
-    background-color:#11c76f;
+    background-color:#018f19; /* STATUS DISPONIVEL*/
 }
 .npagos .qnumber {
-    background-color: #4fa57e;
+    background-color: #018f19;
 }
 #container-info-number{
     display: flex;
@@ -240,15 +240,15 @@ section #container-info-number-geral{
     cursor: pointer;
 }
 .reservado {
-    background-color: #43ccf9;
+    background-color: #f77205;
     color: #FFFFFF;
 }
 .pago {
-    background-color: #11c76f;
+    background-color: #018f19;
     color: #FFFFFF;
 }
 .clicado {
-    background-color: #2e68e9;
+    background-color: #018f19;
     color: #FFFFFF;
 }
 section #container-bilhete {
@@ -275,13 +275,6 @@ section #container-bilhete {
 }
 #situacao {
     margin: 10px 0;
-}
-#telefone {
-    margin: 10px 0;
-    max-width: 17ch;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 #participante {
     max-width: 18ch;
@@ -383,59 +376,6 @@ section #container-prosseguir #prosseguir-PIX {
     min-height: 30px;
     border-radius: 10px 10px 0 0;
 }
-.picpay {
-    background-color: #11c76f;
-}
-.c6bank {
-    background-color: #ced0d0;
-    color: #000000;
-}
-.imgPagamento {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2px 0;
-    width: 130px;
-    height: 130px;
-}
-.imgPagamento img {
-    width: inherit;
-    height: inherit;
-}
-.buttonsPagamento {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 37px;
-    border-radius: 0 0 10px 10px;
-}
-.copiarCodigoPagamento, .enviarComprovantePagamento {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 35px;
-    width: 120px;
-    font-size: 0.78rem;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #272727;
-    color: #FFFFFF;
-}
-.picpayButton {
-    border: 1px solid #11c76f;
-}
-.c6bankButton {
-    border: 1px solid #ced0d0;
-}
-.picpayButton:hover {
-    box-shadow: 0 0 3px #11c76f;
-}
-.c6bankButton:hover {
-    box-shadow: 0 0 3px #ced0d0;
-}*/
 
 #buttonVoltarReserva {
     display: flex;
@@ -499,18 +439,6 @@ section #container-prosseguir #prosseguir-compra{
     width: 100%;
     height: 30px;
 }
-/*
-#valor-pagar, #tittle {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 30px;
-    margin: 5px 0;
-}
-#valor-pagar span {
-    font-weight: bolder;
-}
-*/
 
 #num-selecionados {
     display: flex;
@@ -593,20 +521,7 @@ section #container-prosseguir #prosseguir-compra{
 .dados:hover{ 
     box-shadow: 0 0 1px #00509b;
 }
-#celular, #nome {
-    height: inherit;
-    width:inherit;
-    background-color: #272727;
-    color: #FFFFFF;
-    font-weight: bolder;
-    padding:0 5px;
-    border:none;
-    outline: 0;
-    border-radius: 5px;
-}
-#celular:focus, #nome:focus {
-    border:none;
-}
+
 .dados img {
     width: auto;
     height: 100%;
@@ -637,14 +552,12 @@ section #container-prosseguir #prosseguir-compra{
 #cancelar {
     background-color:#6c757d;
 }
+
+/* ----------------------------------------------------------------------------------------------
 #reservar {
-    background-color:#2e68e9;
+    background-color:#f77205;
 }
-/*
-#mostrarPIX {
-    background-color: #11c76f;
-}
-*/
+
 
 footer{
     display: flex;
