@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;#fafcd4
+    font-family: 'Roboto', sans-serif;#00eba4
 }
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #fafcd4	;   /*------------------- LightPink	 ---------------------------*/
+    background-color: #00eba4	;   /*------------------- fundo = verde	 ---------------------------*/
 }
 header {
     display: flex;
@@ -84,14 +84,14 @@ section #container-apresentacao {
     padding-top: 10px;
     border-top: 1px solid #424242;
 }
-/*----------------------------------FUNDO DAOS TÓPICOS-------------------------------------------------------------*/
+/*----------------------------------FUNDO DOS TÓPICOS-------------------------------------------------------------*/
 #container-info-geral {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #fcffba		;   /*------------------- CREME ---------------------------*/
+    background-color: #00c98d		;   /*------------------- verde mais escuro ---------------------------*/
     margin: 5px 5px;
     width: 320px;
     height: 410px;
@@ -107,7 +107,7 @@ section #container-apresentacao {
     border-radius: 5px;
     margin: 10px 0;
     color: #FFFFFF;
-    background-color: #fafcd4;
+    background-color: #00c98d;
 }
 .info-geral-tittle {
     border-bottom: 1px solid #333333;
