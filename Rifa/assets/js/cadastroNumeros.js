@@ -3,7 +3,7 @@ let cadastroNumeros = [
         numero: '01 - Copo medidor',
         situacao: 'Disponível',
         participante: '',
-        clicado: false,
+        clicado: true,
         telefone: ''
     },
     {
