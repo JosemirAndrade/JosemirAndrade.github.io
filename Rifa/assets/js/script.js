@@ -72,8 +72,8 @@ function criarNumeros() {
   let numerosDisponiveis = cadastroNumeros.filter(item => item.situacao === 'Disponível').length;
   ndisponiveis.innerHTML = numerosDisponiveis;
 
-  let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
-  nreservados.innerHTML = numerosReservados;
+ // let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
+ //nreservados.innerHTML = numerosReservados;
 
   let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
   npagos.innerHTML = numerosPagos;
@@ -114,8 +114,8 @@ function addCarrinho() {
   }else {
     mostrarCarrinho.style.display = 'none';
   }
-  let quantoCusta = document.querySelector('#quanto-custa');
-  quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;
+ // let quantoCusta = document.querySelector('#quanto-custa');
+  //quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;
   
 }
 
@@ -126,7 +126,7 @@ function prosseguir() {
 }
 
 function reservando() {
-  valorPagar.innerHTML = `R$ ${carrinho.length * valorNumero},00`;
+ // valorPagar.innerHTML = `R$ ${carrinho.length * valorNumero},00`;
 }
 
 function ok(){
@@ -141,7 +141,7 @@ function x() {
   inputNome.placeholder = 'Insira seu nome completo ';
   inputCelular.placeholder = 'Insira seu celular com DDD';
   legendCelular.innerHTML = 'Celular:';
-  legendCelular.style.color = '#FFFFFF';
+  legendCelular.style.color = '#FDF5E6'; //FUNDO AVISOS
 }
 
 function mascaraCelular() {
@@ -163,8 +163,10 @@ function reservar() {
     legendCelular.innerHTML = 'INCOMPLETO:';
     legendCelular.style.color = '#FF0000';
   }else {
-    let msg = `Nome: ${inputNome.value};%0ACelular: ${inputCelular.value};%0AQnt: ${carrinho.length};%0AValor: R$ ${carrinho.length * valorNumero},00;%0ANúmero(s): ${carrinho}.`;
+    let msg = `Nome: ${inputNome.value};%0ACelular: ${inputCelular.value};%0AQnt: ${carrinho.length};%0ANúmero(s): ${carrinho}.`;
     let msgEditada = msg.replace(/ /g, '%20');
+    //let msg = `Nome: ${inputNome.value};%0ACelular: ${inputCelular.value};%0AQnt: ${carrinho.length};//%0AValor: R$ ${carrinho.length * valorNumero},00;%0ANúmero(s): ${carrinho}.`;
+    //let msgEditada = msg.replace(/ /g, '%20');
 
     window.open(`${urlZap}${msgEditada}`, '_blank');
     legendCelular.innerHTML = 'Celular:';
@@ -195,25 +197,25 @@ btnCopiarPicpay.addEventListener('click', () => {
   btnCopiarPicpay.style.color = '#11c76f';
 });
 
-let codigoPagamentoC6bank = 'quilbrub@gmail.com';
-let btnCopiarC6bank = document.querySelector('.copiarCodigoPagamento.c6bankButton');
-btnCopiarC6bank.addEventListener('click', () => {
-  navigator.clipboard.writeText(codigoPagamentoC6bank).then();
-  btnCopiarC6bank.innerHTML = 'COPIADO!';
-  btnCopiarC6bank.style.color = '#11c76f';
-});
+//let codigoPagamentoC6bank = 'quilbrub@gmail.com';
+//let btnCopiarC6bank = document.querySelector('.copiarCodigoPagamento.c6bankButton');
+//btnCopiarC6bank.addEventListener('click', () => {
+  //navigator.clipboard.writeText(codigoPagamentoC6bank).then();
+  //btnCopiarC6bank.innerHTML = 'COPIADO!';
+  //btnCopiarC6bank.style.color = '#11c76f';
+//});
 
 //Eventos de Click para botões Enviar Comprovante
-let enviarComprovantePagamentoPicpay = document.querySelector('.enviarComprovantePagamento.picpayButton');
-enviarComprovantePagamentoPicpay.addEventListener('click', () => {
-  let msgEnviarComprovantePicpay = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0APicPay`;
-  let urlEnviarComprovantePickpay = msgEnviarComprovantePicpay.replace(/ /g, '%20');
-  window.open(`${urlZap}${urlEnviarComprovantePickpay}`, '_blank');
-});
-let enviarComprovantePagamentoC6bank = document.querySelector('.enviarComprovantePagamento.c6bankButton');
-enviarComprovantePagamentoC6bank.addEventListener('click', () => {
-  let msgEnviarComprovanteC6bank = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0AC6 Bank`;
-  let urlEnviarComprovanteC6bank = msgEnviarComprovanteC6bank.replace(/ /g, '%20');
-  window.open(`${urlZap}${urlEnviarComprovanteC6bank}`, '_blank');
-});
+//let enviarComprovantePagamentoPicpay = document.querySelector('.enviarComprovantePagamento.picpayButton');
+//enviarComprovantePagamentoPicpay.addEventListener('click', () => {
+  //let msgEnviarComprovantePicpay = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0APicPay`;
+  //let urlEnviarComprovantePickpay = msgEnviarComprovantePicpay.replace(/ /g, '%20');
+  //window.open(`${urlZap}${urlEnviarComprovantePickpay}`, '_blank');
+//});
+//let enviarComprovantePagamentoC6bank = document.querySelector('.enviarComprovantePagamento.c6bankButton');
+//enviarComprovantePagamentoC6bank.addEventListener('click', () => {
+  //let msgEnviarComprovanteC6bank = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0AC6 Bank`;
+  //let urlEnviarComprovanteC6bank = msgEnviarComprovanteC6bank.replace(/ /g, '%20');
+  //window.open(`${urlZap}${urlEnviarComprovanteC6bank}`, '_blank');
+//});
 
