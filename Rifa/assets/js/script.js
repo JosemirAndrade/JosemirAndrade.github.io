@@ -69,11 +69,11 @@ function criarNumeros() {
   });
   ntodos.innerHTML = cadastroNumeros.length;
 
-  //let numerosDisponiveis = cadastroNumeros.filter(item => item.situacao === 'Disponível').length;
-  //ndisponiveis.innerHTML = numerosDisponiveis;
+  let numerosDisponiveis = cadastroNumeros.filter(item => item.situacao === 'Disponível').length;
+  ndisponiveis.innerHTML = numerosDisponiveis;
 
- // let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
- //nreservados.innerHTML = numerosReservados;
+  let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
+  nreservados.innerHTML = numerosReservados;
 
 //  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
  // npagos.innerHTML = numerosPagos;
