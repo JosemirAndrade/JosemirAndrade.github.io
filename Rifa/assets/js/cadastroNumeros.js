@@ -505,9 +505,9 @@ let cadastroNumeros = [
     },
    {
         numero: '73- Sanduicheira',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false,
+        situacao: 'Reservado',
+        participante: 'Juliana',
+        clicado: true,
         telefone: ''
     },
    {
