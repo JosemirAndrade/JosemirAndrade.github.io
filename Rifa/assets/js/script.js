@@ -75,8 +75,8 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
- /* let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
-  npagos.innerHTML = numerosPagos;*/
+ /* let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;*/
+  /*npagos.innerHTML = numerosPagos;*/
 }
 
 function clicou(n) {
@@ -87,7 +87,7 @@ function clicou(n) {
   carrinho.sort((a,b) => a- b);
 
   cadastroNumeros.filter(item => {
-    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'Pago')) {
+    if(n === item.numero && (item.situacao === 'Reservado')/*|| item.situacao === 'Pago'))*/ {
       mostrarBilhete.style.display = 'flex';
       mostrarNumero.innerHTML = `Bilhete: ${item.numero}`;
       mostrarSituacao.innerHTML = `Status: ${item.situacao}`;
@@ -114,10 +114,10 @@ function addCarrinho() {
   }else {
     mostrarCarrinho.style.display = 'none';
   }
-  let quantoCusta = document.querySelector('#quanto-custa');
-  quantoCusta.innerHTML = /*`Total: R$ ${carrinho.length * valorNumero},00`*/;
+  /*let quantoCusta = document.querySelector('#quanto-custa');*/
+  /*quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;*/
   
-}
+/*}*/
 
 function prosseguir() {
   mostrarCarrinho.style.display = 'none';
@@ -126,7 +126,7 @@ function prosseguir() {
 }
 
 function reservando() {
-  valorPagar.innerHTML = /*`R$ ${carrinho.length * valorNumero},00`*/;
+ /* valorPagar.innerHTML = R$ ${*//*carrinho.length *//* valorNumero},00`*/;
 }
 
 function ok(){
@@ -163,7 +163,7 @@ function reservar() {
     legendCelular.innerHTML = 'INCOMPLETO:';
     legendCelular.style.color = '#FF0000';
   }else {
-    let msg = `Nome: ${inputNome.value};%0ACelular: ${inputCelular.value};%0AQnt: ${carrinho.length};%0AValor: R$ ${carrinho.length * valorNumero},00;%0ANúmero(s): ${carrinho}.`;
+    let msg = `Nome: ${inputNome.value};%0ACelular: ${inputCelular.value};%0AQnt: ${carrinho.length};%0ANúmero(s): ${carrinho}.`;
     let msgEditada = msg.replace(/ /g, '%20');
 
     window.open(`${urlZap}${msgEditada}`, '_blank');
