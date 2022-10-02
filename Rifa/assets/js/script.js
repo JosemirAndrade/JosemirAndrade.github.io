@@ -5,17 +5,17 @@ let mostrarCarrinho = document.querySelector('#mostrar-carinho');
 let mostrarTelefone = document.querySelector('#telefone');
 let mostrarProsseguir = document.querySelector('#container-prosseguir');
 let numSelecionados = document.querySelector('#num-selecionados');
-let ntodos = document.querySelector('.ntodos .qnumber');
+/*let ntodos = document.querySelector('.ntodos .qnumber');*/
 let ndisponiveis = document.querySelector('.ndisponiveis .qnumber');
 let nreservados = document.querySelector('.nreservados .qnumber');
-let npagos = document.querySelector('.npagos .qnumber');
-let valorPagar = document.querySelector('#valor-pagar span');
+/*let npagos = document.querySelector('.npagos .qnumber');*/
+/*let valorPagar = document.querySelector('#valor-pagar span');*/
 let inputNome = document.querySelector('#nome');
 let inputCelular = document.querySelector('#celular');
 let legendCelular = document.querySelector('#legendCelular');
 let mostrandoCompra = document.querySelector('#prosseguir-compra');
 let mostrandoPIX = document.querySelector('#prosseguir-PIX');
-let urlZap = 'https://api.whatsapp.com/send?phone=5588981062656&text=';
+let urlZap = 'https://api.whatsapp.com/send?phone=5588998301499&text=';
 
 let valorNumero = 5;
 let carrinho = [];
@@ -75,6 +75,8 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
+ /* let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
+  npagos.innerHTML = numerosPagos;*/
 }
 
 function clicou(n) {
@@ -112,6 +114,9 @@ function addCarrinho() {
   }else {
     mostrarCarrinho.style.display = 'none';
   }
+  let quantoCusta = document.querySelector('#quanto-custa');
+  quantoCusta.innerHTML = /*`Total: R$ ${carrinho.length * valorNumero},00`*/;
+  
 }
 
 function prosseguir() {
@@ -121,7 +126,7 @@ function prosseguir() {
 }
 
 function reservando() {
-  valorPagar.innerHTML = ;
+  valorPagar.innerHTML = /*`R$ ${carrinho.length * valorNumero},00`*/;
 }
 
 function ok(){
@@ -175,14 +180,14 @@ function mostrarPIX() {
 function voltarReserva() {
   mostrandoCompra.style.display = 'flex';
   mostrandoPIX.style.display = 'none';
-  btnCopiarPicpay.innerHTML = '88981062656';
+  btnCopiarPicpay.innerHTML = '88998301499';
   btnCopiarPicpay.style.color = '#FFFFFF';
-  btnCopiarC6bank.innerHTML = 'quilbrub@gmail.com';
+  btnCopiarC6bank.innerHTML = 'josemirandrade.1@gmail.com';
   btnCopiarC6bank.style.color = '#FFFFFF';
 }
 
 //Eventos de Click para botões de copiar texto
-let codigoPagamentoPicpay = '88981062656';
+let codigoPagamentoPicpay = '88998301499';
 let btnCopiarPicpay = document.querySelector('.copiarCodigoPagamento.picpayButton');
 btnCopiarPicpay.addEventListener('click', () => {
   navigator.clipboard.writeText(codigoPagamentoPicpay).then();
@@ -190,7 +195,7 @@ btnCopiarPicpay.addEventListener('click', () => {
   btnCopiarPicpay.style.color = '#11c76f';
 });
 
-let codigoPagamentoC6bank = 'quilbrub@gmail.com';
+let codigoPagamentoC6bank = 'josemirandrade.1@gmail.com';
 let btnCopiarC6bank = document.querySelector('.copiarCodigoPagamento.c6bankButton');
 btnCopiarC6bank.addEventListener('click', () => {
   navigator.clipboard.writeText(codigoPagamentoC6bank).then();
@@ -201,13 +206,13 @@ btnCopiarC6bank.addEventListener('click', () => {
 //Eventos de Click para botões Enviar Comprovante
 let enviarComprovantePagamentoPicpay = document.querySelector('.enviarComprovantePagamento.picpayButton');
 enviarComprovantePagamentoPicpay.addEventListener('click', () => {
-  let msgEnviarComprovantePicpay = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0APicPay`;
+  let msgEnviarComprovantePicpay = `Chá de Panela%0AEnviando Comprovante de Transferência%0APicPay`;
   let urlEnviarComprovantePickpay = msgEnviarComprovantePicpay.replace(/ /g, '%20');
   window.open(`${urlZap}${urlEnviarComprovantePickpay}`, '_blank');
 });
 let enviarComprovantePagamentoC6bank = document.querySelector('.enviarComprovantePagamento.c6bankButton');
 enviarComprovantePagamentoC6bank.addEventListener('click', () => {
-  let msgEnviarComprovanteC6bank = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0AC6 Bank`;
+  let msgEnviarComprovanteC6bank = `Chá de Panela%0AEnviando Comprovante de Transferência%0AC6 Bank`;
   let urlEnviarComprovanteC6bank = msgEnviarComprovanteC6bank.replace(/ /g, '%20');
   window.open(`${urlZap}${urlEnviarComprovanteC6bank}`, '_blank');
 });
