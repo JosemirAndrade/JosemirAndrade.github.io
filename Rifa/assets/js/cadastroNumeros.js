@@ -9,31 +9,35 @@ let cadastroNumeros = [
         numero: '02- Afiador de faca',
         situacao: 'Reservado',
         participante: 'Josi',
-        clicado: true
+        clicado: true,
     },
     {
         numero: '03- Descanso de panela e colher ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'José',
+        clicado: true,
+        telefone: '(00)000000-0000'
     },
     {
         numero: '04- Petisqueira',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Pago',
+        participante: 'João',
+        clicado: true,
+        telefone: '(00)000000-0000'
     },
     {
         numero: '05- Escumadeira',
         situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        participante: ' ',
+        clicado: false,
+        telefone: ' '
     },
     {
         numero: '06- Cabides(conj.)',
         situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        participante: ' ',
+        clicado: false,
+        telefone: ' '
     },
     {
         numero: '07- Descascador de legumes',
