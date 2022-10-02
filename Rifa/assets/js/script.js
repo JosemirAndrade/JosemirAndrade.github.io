@@ -216,3 +216,4 @@ enviarComprovantePagamentoC6bank.addEventListener('click', () => {
   let urlEnviarComprovanteC6bank = msgEnviarComprovanteC6bank.replace(/ /g, '%20');
   window.open(`${urlZap}${urlEnviarComprovanteC6bank}`, '_blank');
 });
+
