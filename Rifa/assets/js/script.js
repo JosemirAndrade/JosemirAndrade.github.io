@@ -5,11 +5,11 @@ let mostrarCarrinho = document.querySelector('#mostrar-carinho');
 let mostrarTelefone = document.querySelector('#telefone');
 let mostrarProsseguir = document.querySelector('#container-prosseguir');
 let numSelecionados = document.querySelector('#num-selecionados');
-/*let ntodos = document.querySelector('.ntodos .qnumber');*/
+let ntodos = document.querySelector('.ntodos .qnumber');
 let ndisponiveis = document.querySelector('.ndisponiveis .qnumber');
 let nreservados = document.querySelector('.nreservados .qnumber');
-/*let npagos = document.querySelector('.npagos .qnumber');*/
-/*let valorPagar = document.querySelector('#valor-pagar span');*/
+let npagos = document.querySelector('.npagos .qnumber');
+let valorPagar = document.querySelector('#valor-pagar span');
 let inputNome = document.querySelector('#nome');
 let inputCelular = document.querySelector('#celular');
 let legendCelular = document.querySelector('#legendCelular');
@@ -75,8 +75,8 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
- /* let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;*/
-  /*npagos.innerHTML = numerosPagos;*/
+  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
+  npagos.innerHTML = numerosPagos;
 }
 
 function clicou(n) {
@@ -87,7 +87,7 @@ function clicou(n) {
   carrinho.sort((a,b) => a- b);
 
   cadastroNumeros.filter(item => {
-    if(n === item.numero && (item.situacao === 'Reservado')/*|| item.situacao === 'Pago'))*/ {
+    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'Pago')) {
       mostrarBilhete.style.display = 'flex';
       mostrarNumero.innerHTML = `Bilhete: ${item.numero}`;
       mostrarSituacao.innerHTML = `Status: ${item.situacao}`;
@@ -114,10 +114,10 @@ function addCarrinho() {
   }else {
     mostrarCarrinho.style.display = 'none';
   }
-  /*let quantoCusta = document.querySelector('#quanto-custa');*/
-  /*quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;*/
+  let quantoCusta = document.querySelector('#quanto-custa');
+  quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;
   
-/*}*/
+}
 
 function prosseguir() {
   mostrarCarrinho.style.display = 'none';
@@ -126,7 +126,7 @@ function prosseguir() {
 }
 
 function reservando() {
- /* valorPagar.innerHTML = R$ ${*//*carrinho.length *//* valorNumero},00`*/;
+  valorPagar.innerHTML = `R$ ${carrinho.length * valorNumero},00`;
 }
 
 function ok(){
@@ -180,9 +180,9 @@ function mostrarPIX() {
 function voltarReserva() {
   mostrandoCompra.style.display = 'flex';
   mostrandoPIX.style.display = 'none';
-  btnCopiarPicpay.innerHTML = '88998301499';
+  btnCopiarPicpay.innerHTML = '88981062656';
   btnCopiarPicpay.style.color = '#FFFFFF';
-  btnCopiarC6bank.innerHTML = 'josemirandrade.1@gmail.com';
+  btnCopiarC6bank.innerHTML = 'quilbrub@gmail.com';
   btnCopiarC6bank.style.color = '#FFFFFF';
 }
 
@@ -206,13 +206,13 @@ btnCopiarC6bank.addEventListener('click', () => {
 //Eventos de Click para botões Enviar Comprovante
 let enviarComprovantePagamentoPicpay = document.querySelector('.enviarComprovantePagamento.picpayButton');
 enviarComprovantePagamentoPicpay.addEventListener('click', () => {
-  let msgEnviarComprovantePicpay = `Chá de Panela%0AEnviando Comprovante de Transferência%0APicPay`;
+  let msgEnviarComprovantePicpay = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0APicPay`;
   let urlEnviarComprovantePickpay = msgEnviarComprovantePicpay.replace(/ /g, '%20');
   window.open(`${urlZap}${urlEnviarComprovantePickpay}`, '_blank');
 });
 let enviarComprovantePagamentoC6bank = document.querySelector('.enviarComprovantePagamento.c6bankButton');
 enviarComprovantePagamentoC6bank.addEventListener('click', () => {
-  let msgEnviarComprovanteC6bank = `Chá de Panela%0AEnviando Comprovante de Transferência%0AC6 Bank`;
+  let msgEnviarComprovanteC6bank = `Rifa do Adrian%0AEnviando Comprovante de Transferência%0AC6 Bank`;
   let urlEnviarComprovanteC6bank = msgEnviarComprovanteC6bank.replace(/ /g, '%20');
   window.open(`${urlZap}${urlEnviarComprovanteC6bank}`, '_blank');
 });
