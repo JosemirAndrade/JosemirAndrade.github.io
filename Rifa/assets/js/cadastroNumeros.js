@@ -7,21 +7,21 @@ let cadastroNumeros = [
     },
     {
         numero: '02- Afiador de faca',
-        situacao: 'Reservado',
-        participante: 'Josi',
-        clicado: true,
+        situacao: 'Disponível',
+        participante: ' ',
+        clicado: false,
     },
     {
         numero: '03- Descanso de panela e colher ',
-        situacao: 'Reservado',
-        participante: 'José',
-        clicado: true,
+        situacao: 'Disponível',
+        participante: ' ',
+        clicado: false,
     },
     {
         numero: '04- Petisqueira',
-        situacao: 'Reservado',
-        participante: 'João',
-        clicado: true,
+        situacao: 'Disponível',
+        participante: ' ',
+        clicado: false,
     },
     {
         numero: '05- Escumadeira',
@@ -433,9 +433,9 @@ let cadastroNumeros = [
     },
    {
         numero: '73- Sanduicheira',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Juliana',
+        clicado: true
     },
    {
         numero: '74- Ferro de passar roupa',
