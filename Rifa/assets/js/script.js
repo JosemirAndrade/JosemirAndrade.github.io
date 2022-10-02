@@ -17,7 +17,7 @@ let mostrandoCompra = document.querySelector('#prosseguir-compra');
 let mostrandoPIX = document.querySelector('#prosseguir-PIX');
 let urlZap = 'https://api.whatsapp.com/send?phone=5588998301499&text=';
 
-let valorNumero = 5;
+//let valorNumero = 5;
 let carrinho = [];
 
 //Slide de Fotos
@@ -75,8 +75,8 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
-  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
-  npagos.innerHTML = numerosPagos;
+  //let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
+  //npagos.innerHTML = numerosPagos;
 }
 
 function clicou(n) {
@@ -98,7 +98,7 @@ function clicou(n) {
       numberId.classList.toggle('clicado');
       if(numberId.classList.contains('clicado')) {
         carrinho.push(item.numero);
-        numSelecionados.innerHTML += `<div id="sel${item.numero}"class="selecionado" contagem="${item.numero}"><span>${item.numero}</span></div>`;
+        numSelecionados.innerHTML += `<div id="sel${item.numero}"class="selecionado" contagem="${item.numero}"></div>`;
       }else {
         carrinho.splice(carrinho.indexOf(item.numero), 1);
         numSelecionados.removeChild(document.getElementById(`sel${item.numero}`));
@@ -114,8 +114,8 @@ function addCarrinho() {
   }else {
     mostrarCarrinho.style.display = 'none';
   }
-  let quantoCusta = document.querySelector('#quanto-custa');
-  quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;
+  //let quantoCusta = document.querySelector('#quanto-custa');
+  //quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;
   
 }
 
@@ -126,7 +126,7 @@ function prosseguir() {
 }
 
 function reservando() {
-  valorPagar.innerHTML = `R$ ${carrinho.length * valorNumero},00`;
+  valorPagar.innerHTML = ` `;
 }
 
 function ok(){
@@ -180,9 +180,9 @@ function mostrarPIX() {
 function voltarReserva() {
   mostrandoCompra.style.display = 'flex';
   mostrandoPIX.style.display = 'none';
-  btnCopiarPicpay.innerHTML = '88981062656';
+  btnCopiarPicpay.innerHTML = '88998301499';
   btnCopiarPicpay.style.color = '#FFFFFF';
-  btnCopiarC6bank.innerHTML = 'quilbrub@gmail.com';
+  btnCopiarC6bank.innerHTML = 'josemirandrade.1@gmail.com';
   btnCopiarC6bank.style.color = '#FFFFFF';
 }
 
