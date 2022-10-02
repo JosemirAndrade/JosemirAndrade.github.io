@@ -13,7 +13,7 @@ let cadastroNumeros = [
     },
     {
         numero: '03- Descanso de panela e colher ',
-        situacao: 'Disponível',
+        situacao: 'Disponivel',
         participante: ' ',
         clicado: false,
     },
@@ -61,9 +61,9 @@ let cadastroNumeros = [
     },
     {
         numero: '11- Jogo americano',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Jjjj',
+        clicado: true
     },
     {
         numero: '12- Baldes plásticos (2un)',
