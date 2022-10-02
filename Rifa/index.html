@@ -81,13 +81,15 @@
           <div id="number-bilhete">Bilhete: 0001</div>
           <div id="situacao">Status: </div>
           <div id="participante">Participante: </div>
-          <div id="telefone">Celular: </div>
           <button id="button-ok" onclick="ok()">OK</button>
         </div>
       </div>
+    
       <div id="mostrar-carinho">
         <div id="prosseguir" onclick="prosseguir()">Prosseguir</div>
       </div>
+      <div id="container-prosseguir"></div>
+          </div>
           <div id="buttonVoltarReserva" onclick="voltarReserva()">Voltar</div>
         </div>
         <div id="prosseguir-compra">
@@ -95,12 +97,16 @@
             <p>Reserva de número(s)</p>
             <button id="button-X" onclick="x()">X</button>
           </div>
+           
+          </div>
           <div id="dados-cliente">
             <span>Por favor, preencha o campo abaixo:</span>
             <legend>Nome Completo:</legend>
             <div class="dados">
               <img src="./assets/images/icouser.svg" alt="">
               <input type="text" name="nome" id="nome" pattern="[a-z\s]+$" placeholder="Insira seu nome completo"> 
+            </div>
+              
             </div>
             <div id="compra-buttons">
               <div id="cancelar" onclick="x()">Cancelar</div>
@@ -111,7 +117,8 @@
       </div>
     </section>
     <footer>
-   </footer>
+      
+    </footer>
     <script src="./assets/js/cadastroNumeros.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
