@@ -16,28 +16,24 @@ let cadastroNumeros = [
         situacao: 'Reservado',
         participante: 'José',
         clicado: true,
-        telefone: '(00)000000-0000'
     },
     {
         numero: '04- Petisqueira',
-        situacao: 'Pago',
+        situacao: 'Reservado',
         participante: 'João',
         clicado: true,
-        telefone: '(00)000000-0000'
     },
     {
         numero: '05- Escumadeira',
         situacao: 'Disponível',
         participante: ' ',
         clicado: false,
-        telefone: ' '
     },
     {
         numero: '06- Cabides(conj.)',
         situacao: 'Disponível',
         participante: ' ',
         clicado: false,
-        telefone: ' '
     },
     {
         numero: '07- Descascador de legumes',
