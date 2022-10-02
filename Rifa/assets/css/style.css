@@ -194,14 +194,14 @@ section #container-info-number-geral{
     background-color: #018f19; /* STATUS DISPONIVEL*/
 }
 .nreservados {
-    color: #f77205;
+    color: #ffffff;
     background-color: #f77205; /* STATUS RESERVADO*/
 } 
 .nreservados .qnumber {
     background-color: #f77205; /* STATUS RESERVADO*/
 }
 .npagos {
-    color: #018f19;
+    color: #ffffff;
     background-color:#018f19; /* STATUS DISPONIVEL*/
 }
 .npagos .qnumber {
