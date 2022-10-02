@@ -80,9 +80,9 @@
       </div>
       <div id="container-bilhete">
         <div id="mostrar-bilhete">
-          <div id="number-bilhete">Bilhete: 0001</div>
-          <div id="situacao">Status: Pago</div>
-          <div id="participante">Participante: Quilion Oliveira</div>
+          <div id="number-bilhete">Bilhete: </div>
+          <div id="situacao">Status: </div>
+          <div id="participante">Participante: </div>
          
           <button id="button-ok" onclick="ok()">OK</button>
         </div>
@@ -101,14 +101,8 @@
               <div class="enviarComprovantePagamento picpayButton">ENVIAR COMPROVANTE</div>
             </div>
           </div>
-          <div class="containerPagamento">
-            <div class="titleBanco c6bank">C6 Bank</div>
-            <div class="imgPagamento"><img src="./assets/images/pixc6.jpeg" alt=""></div>
-            <div class="buttonsPagamento c6bank">
-              <div class="copiarCodigoPagamento c6bankButton">quilbrub@gmail.com</div>
-              <div class="enviarComprovantePagamento c6bankButton">ENVIAR COMPROVANTE</div>
-            </div>
-          </div>
+         
+         
           <div id="buttonVoltarReserva" onclick="voltarReserva()">Voltar</div>
         </div>
         <div id="prosseguir-compra">
@@ -116,10 +110,7 @@
             <p>Reserva de número(s)</p>
             <button id="button-X" onclick="x()">X</button>
           </div>
-          <div id="info-compra">
-            <div id="valor-pagar">Valor a pagar: <span> R$ 10,00</span></div>
-            
-          </div>
+         
           <div id="dados-cliente">
             
             <legend>Nome Completo:</legend>
@@ -128,10 +119,7 @@
               <input type="text" name="nome" id="nome" pattern="[a-z\s]+$" placeholder="Insira seu nome completo"> 
             </div>
             
-            <div class="dados">
-              <img src="./assets/images/icophone.svg" alt="">
-              <input type="text" name="celular" id="celular" placeholder="Insira seu whatsapp com DDD" maxlength="15" onkeyup="mascaraCelular()">
-            </div>
+           
             <span id="tittle">Números selecionados:</span>
             <div id="num-selecionados">
               
@@ -146,29 +134,10 @@
     </section>
     <footer>
       <div id="ref">
-        <p>Codificado com muito entusiasmo por</p>
-        <a href="">Quilion Oliveira</a>
+        <p Código fonte adaptado por JosemirAndrade por</p>
+        
       </div>
-      <div id="banner--logos--footer">
-        <a href="https://github.com/QuiLion7?tab=repositories" target="_blank">
-          <img src="./assets/images/github.png" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/quilion-oliveira-18820b31/"
-          target="_blank"
-        >
-          <img src="./assets/images/linkedin.png" />
-        </a>
-        <a href="mailto:quilbrub@gmail.com" target="_blank">
-          <img src="./assets/images/gmail.png" />
-        </a>
-        <a href="https://www.instagram.com/quilion7/" target="_blank">
-          <img src="./assets/images/instagram.png" />
-        </a>
-        <a href="https://www.facebook.com/QuiLion/" target="_blank">
-          <img src="./assets/images/facebook.png" />
-        </a>
-      </div>
+     
     </footer>
     <script src="./assets/js/cadastroNumeros.js"></script>
     <script src="./assets/js/script.js"></script>
