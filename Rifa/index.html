@@ -70,10 +70,8 @@
         <div id="container-info-number">
           <div id="info-number-tittle">Números</div>
           <div id="info-number-qnt">
-            <div class="number-qnt ntodos">Todos<span class="qnumber"></span></div>
             <div class="number-qnt ndisponiveis">Disponíveis<span class="qnumber"></span></div>
-            <div class="number-qnt nreservados">Reservados<span class="qnumber"></span></div>
-            <div class="number-qnt npagos">Pagos<span class="qnumber"></span></div>
+            <div class="number-qnt nreservados">Reservados<span class="qnumber"></span></div>     
           </div>
         </div>
         <div id="container-numbers"></div>
@@ -81,34 +79,15 @@
       <div id="container-bilhete">
         <div id="mostrar-bilhete">
           <div id="number-bilhete">Bilhete: 0001</div>
-          <div id="situacao">Status: Pago</div>
-          <div id="participante">Participante: Quilion Oliveira</div>
-          <div id="telefone">Celular: (88) 88888-8888</div>
+          <div id="situacao">Status: </div>
+          <div id="participante">Participante: </div>
+          <div id="telefone">Celular: </div>
           <button id="button-ok" onclick="ok()">OK</button>
         </div>
       </div>
       <div id="mostrar-carinho">
-        <div id="quanto-custa">Total: R$ 10,00</div>
         <div id="prosseguir" onclick="prosseguir()">Prosseguir</div>
       </div>
-      <div id="container-prosseguir">
-        <div id="prosseguir-PIX">
-          <div class="containerPagamento">
-            <div class="titleBanco picpay">PicPay</div>
-            <div class="imgPagamento"><img src="./assets/images/pixpicpay.jpeg" alt=""></div>
-            <div class="buttonsPagamento picpay">
-              <div class="copiarCodigoPagamento picpayButton">88981062656</div>
-              <div class="enviarComprovantePagamento picpayButton">ENVIAR COMPROVANTE</div>
-            </div>
-          </div>
-          <div class="containerPagamento">
-            <div class="titleBanco c6bank">C6 Bank</div>
-            <div class="imgPagamento"><img src="./assets/images/pixc6.jpeg" alt=""></div>
-            <div class="buttonsPagamento c6bank">
-              <div class="copiarCodigoPagamento c6bankButton">quilbrub@gmail.com</div>
-              <div class="enviarComprovantePagamento c6bankButton">ENVIAR COMPROVANTE</div>
-            </div>
-          </div>
           <div id="buttonVoltarReserva" onclick="voltarReserva()">Voltar</div>
         </div>
         <div id="prosseguir-compra">
@@ -116,62 +95,23 @@
             <p>Reserva de número(s)</p>
             <button id="button-X" onclick="x()">X</button>
           </div>
-          <div id="info-compra">
-            <div id="valor-pagar">Valor a pagar: <span> R$ 10,00</span></div>
-            
-          </div>
           <div id="dados-cliente">
-            <span>Por favor, preencha os campos abaixo:</span>
+            <span>Por favor, preencha o campo abaixo:</span>
             <legend>Nome Completo:</legend>
             <div class="dados">
               <img src="./assets/images/icouser.svg" alt="">
               <input type="text" name="nome" id="nome" pattern="[a-z\s]+$" placeholder="Insira seu nome completo"> 
             </div>
-            <legend id="legendCelular">Celular:</legend>
-            <div class="dados">
-              <img src="./assets/images/icophone.svg" alt="">
-              <input type="text" name="celular" id="celular" placeholder="Insira seu whatsapp com DDD" maxlength="15" onkeyup="mascaraCelular()">
-            </div>
-            <span id="tittle">Números selecionados:</span>
-            <div id="num-selecionados">
-              
-            </div>
-            <span>Declaro ter lido e concordado com o <a href="" target="_blank">regulamento</a>.</span>
             <div id="compra-buttons">
               <div id="cancelar" onclick="x()">Cancelar</div>
               <div id="reservar" onclick="reservar()">Reservar</div>
-              <div id="mostrarPIX" onclick="mostrarPIX()">Pagar</div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <footer>
-      <div id="ref">
-        <p>#######</p>
-        <a href="">#########</a>
-      </div>
-      <div id="banner--logos--footer">
-        <a href="https://github.com/QuiLion7?tab=repositories" target="_blank">
-          <img src="./assets/images/github.png" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/quilion-oliveira-18820b31/"
-          target="_blank"
-        >
-          <img src="./assets/images/linkedin.png" />
-        </a>
-        <a href="mailto:quilbrub@gmail.com" target="_blank">
-          <img src="./assets/images/gmail.png" />
-        </a>
-        <a href="https://www.instagram.com/quilion7/" target="_blank">
-          <img src="./assets/images/instagram.png" />
-        </a>
-        <a href="https://www.facebook.com/QuiLion/" target="_blank">
-          <img src="./assets/images/facebook.png" />
-        </a>
-      </div>
-    </footer>
+   </footer>
     <script src="./assets/js/cadastroNumeros.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
