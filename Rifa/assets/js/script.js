@@ -75,8 +75,6 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
-  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
-  npagos.innerHTML = numerosPagos;
 }
 
 function clicou(n) {
@@ -114,9 +112,6 @@ function addCarrinho() {
   }else {
     mostrarCarrinho.style.display = 'none';
   }
-  let quantoCusta = document.querySelector('#quanto-custa');
-  quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;
-  
 }
 
 function prosseguir() {
@@ -126,7 +121,7 @@ function prosseguir() {
 }
 
 function reservando() {
-  valorPagar.innerHTML = `R$ ${carrinho.length * valorNumero},00`;
+  valorPagar.innerHTML = ;
 }
 
 function ok(){
