@@ -325,11 +325,11 @@ section #mostrar-carinho {
 }
 #prosseguir {
     border-radius: 0 10px 10px 0;
-    background-color: #2e68e9;
+    background-color: #018f19;
     cursor: pointer;
 }
 #prosseguir:hover {
-    background-color: #477ae7;
+    background-color: #018f19;
 }
 section #container-prosseguir {
     display: none;
@@ -634,7 +634,7 @@ section #container-prosseguir #prosseguir-compra{
     background-color:#6c757d;
 }
 #reservar {
-    background-color:#2e68e9;
+    background-color:#018f19;
 }
 #mostrarPIX {
     background-color: #11c76f;
