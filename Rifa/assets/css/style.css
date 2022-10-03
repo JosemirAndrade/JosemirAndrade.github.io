@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;#00eba4
+    font-family: 'Roboto', sans-serif;#E5DED2
 }
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #00eba4	;   /*------------------- fundo = verde	 ---------------------------*/
+    background-color: #E5DED2	;   /*------------------- fundo = verde	 ---------------------------*/
 }
 header {
     display: flex;
