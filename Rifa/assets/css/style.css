@@ -124,7 +124,7 @@ section #container-apresentacao {
     padding: 2px;
     margin: 2px 0;
     width: 95%;
-    text-align: center;
+    text-align: justified;
     font-size: 0.9rem;
     line-height: 20px;
 }
