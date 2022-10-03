@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;#E5DED2
+    font-family: 'Roboto', sans-serif;#E5DED2  /*------------------- fundo = creme	 ---------------------------*/
 }
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #E5DED2	;   /*------------------- fundo = verde	 ---------------------------*/
+    background-color: #E5DED2	;   /*------------------- fundo = creme	 ---------------------------*/
 }
 header {
     display: flex;
@@ -91,7 +91,7 @@ section #container-apresentacao {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #00c98d		;   /*------------------- verde mais escuro ---------------------------*/
+    background-color: #E7B9B4		;   /*------------------- cor hibisco ---------------------------*/
     margin: 5px 5px;
     width: 320px;
     height: 410px;
@@ -107,7 +107,7 @@ section #container-apresentacao {
     border-radius: 5px;
     margin: 10px 0;
     color: #FFFFFF;
-    background-color: #00c98d;
+    background-color: #E7B9B4;
 }
 .info-geral-tittle {
     border-bottom: 1px solid #333333;
