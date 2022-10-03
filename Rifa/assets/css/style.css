@@ -229,8 +229,8 @@ section #container-info-number-geral{
     border-bottom: 1px solid #E7B9B4;/*--------------painel de números--------*/
 }
 .button {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     border-radius: 5px;
     border: none;
     background-color: #C2DACE; /*------------------- botões de números------------------*/
