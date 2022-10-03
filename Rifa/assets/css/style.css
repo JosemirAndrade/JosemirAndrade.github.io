@@ -248,7 +248,7 @@ section #container-info-number-geral{
     color: #FFFFFF;
 }
 .clicado {
-    background-color: #087E8B;
+    background-color: #C2DACE;
     color: #FFFFFF;
 }/*------------------------------------------------Até aqui OK--------------------------------------------*/
 section #container-bilhete {
@@ -453,7 +453,7 @@ section #container-prosseguir #prosseguir-compra{
     min-width: 300px;
     max-width: 80%;
     padding: 15px;
-    min-height: 480px;
+    min-height: 300px;
     background-color: #2C2C2C; /*------------------------------------ cor preta --------------------------------------*/
     color: #FFFFFF;
     border-radius: 10px;
