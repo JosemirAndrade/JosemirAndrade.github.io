@@ -1,39 +1,39 @@
 let cadastroNumeros = [
     {
         numero: '01- Copo medidor',
-        situacao: 'Reservado',
-        participante: 'Josemir',
-        clicado: true
+        situacao: 'Disponível',
+        participante: '',
+        clicado: false
     },
     {
         numero: '02- Afiador de faca',
         situacao: 'Disponível',
         participante: ' ',
-        clicado: false,
+        clicado: false
     },
     {
         numero: '03- Descanso de panela e colher ',
         situacao: 'Disponivel',
         participante: ' ',
-        clicado: false,
+        clicado: false
     },
     {
         numero: '04- Petisqueira',
         situacao: 'Disponível',
         participante: ' ',
-        clicado: false,
+        clicado: false
     },
     {
         numero: '05- Escumadeira',
         situacao: 'Disponível',
         participante: ' ',
-        clicado: false,
+        clicado: false
     },
     {
         numero: '06- Cabides(conj.)',
         situacao: 'Disponível',
         participante: ' ',
-        clicado: false,
+        clicado: false
     },
     {
         numero: '07- Descascador de legumes',
@@ -61,9 +61,9 @@ let cadastroNumeros = [
     },
     {
         numero: '11- Jogo americano',
-        situacao: 'Reservado',
-        participante: 'Jjjj',
-        clicado: true
+        situacao: 'Disponível',
+        participante: '',
+        clicado: false
     },
     {
         numero: '12- Baldes plásticos (2un)',
