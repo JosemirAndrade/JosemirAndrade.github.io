@@ -107,10 +107,10 @@ section #container-apresentacao {
     border-radius: 5px;
     margin: 10px 0;
     color: #FFFFFF;
-    background-color: #E7B9B4;
+    background-color: #E7B9B4;   /*------------------- cor hibisco ---------------------------*/
 }
 .info-geral-tittle {
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #2C2C2C;
     font-size: 1.2rem;
     padding: 5px;
     width: 95%;
@@ -183,7 +183,7 @@ section #container-info-number-geral{
     cursor:context-menu;
 }
 .qnumber {
-    background-color: #333333;
+    background-color: #2C2C2C;
     padding: 3px 5px;
     font-size: 0.9rem;
     border-radius: 5px;
@@ -302,7 +302,7 @@ section #mostrar-carinho {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: #333333;
+    background-color: #2C2C2C;
     color: #FFFFFF;
     width: 100%;
     height: 60px;
@@ -358,7 +358,7 @@ section #container-prosseguir #prosseguir-PIX {
     position:fixed;
     margin: auto;
     font-size: 1.5rem;
-    background-color: #333333;
+    background-color: #2C2C2C;
     transition: all 0.5s;
 }
 .containerPagamento {
@@ -459,7 +459,7 @@ section #container-prosseguir #prosseguir-compra{
     max-width: 80%;
     padding: 15px;
     min-height: 480px;
-    background-color: #333333;
+    background-color: #2C2C2C;
     color: #FFFFFF;
     border-radius: 10px;
     position:fixed;
@@ -531,7 +531,7 @@ section #container-prosseguir #prosseguir-compra{
     height: 25px;
     width: 46px;
     border-radius: 5px;
-    background-color: #333333;
+    background-color: #2C2C2C;
     color: #FFFFFF;
     font-weight: bolder;
 }
@@ -551,7 +551,7 @@ section #container-prosseguir #prosseguir-compra{
     height: 100%;
     border-radius: 0 5px 5px 0;
     background-color:#656565;
-    color: #333333;
+    color: #2C2C2C;
     cursor: pointer;
 }
 #dados-cliente {
