@@ -124,7 +124,7 @@ section #container-apresentacao {
     padding: 2px;
     margin: 2px 0;
     width: 95%;
-    text-align: justified;
+    text-align: justify;
     font-size: 0.9rem;
     line-height: 20px;
 }
@@ -145,7 +145,7 @@ section #container-info-number-geral{
     justify-content: center;
     align-items: center;
     width: 95%;
-    background-color: #0a0a0a;
+    background-color: #2C2C2C;
 }
 #container-info-number {
     border-top: 1px solid #424242;
@@ -178,11 +178,11 @@ section #container-info-number-geral{
     margin: 3px 3px;
     border-radius: 5px;
     font-size: 1rem;
-    background-color: #f7f7f7;
+    background-color: #C2DACE;
     cursor:context-menu;
 }
 .qnumber {
-    background-color: #2C2C2C; /*-------------------------------- cor preta --------------------------------------
+    background-color: #2C2C2C; /*-------------------------------- cor preta --------------------------------------*/
     padding: 3px 5px;
     font-size: 0.9rem;
     border-radius: 5px;
@@ -201,7 +201,7 @@ section #container-info-number-geral{
 }
 .npagos {
     color: #ffffff;
-    background-color:#C2DACE; /* STATUS DISPONIVEL*/
+    background-color:#087E8B; /* STATUS DISPONIVEL*/
 }
 .npagos .qnumber {
     background-color: #087E8B;
@@ -233,21 +233,21 @@ section #container-info-number-geral{
     height: 90px;
     border-radius: 5px;
     border: none;
-    background-color: #018f19;
+    background-color: #087E8B;
     color: #000000;
     font-size: 0.95rem;
     cursor: pointer;
 }
 .reservado {
-    background-color: #f77205;
+    background-color: #087E8B;
     color: #FFFFFF;
 }
 .pago {
-    background-color: #018f19;
+    background-color: #087E8B;
     color: #FFFFFF;
 }
 .clicado {
-    background-color: #018f19;
+    background-color: #087E8B;
     color: #FFFFFF;
 }
 section #container-bilhete {
@@ -301,7 +301,7 @@ section #mostrar-carinho {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: #2C2C2C; /*------------------------------------------- cor preta ----------------------------
+    background-color: #2C2C2C; /*------------------------------------------- cor preta ----------------------------*/
     color: #FFFFFF;
     width: 100%;
     height: 60px;
@@ -323,7 +323,6 @@ section #mostrar-carinho {
     cursor:default;
 }
 #prosseguir {
-    border-radius: 0 10px 10px 0;
     background-color: #087E8B; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
     cursor: pointer;
 }
@@ -517,7 +516,7 @@ section #container-prosseguir #prosseguir-compra{
     height: 100px;
     padding: 5px;
     overflow-y: auto;
-    background-color: #272727;
+    background-color: #087E8B;
     border-radius: 10px;
     margin-top: 5px;
 }
@@ -530,7 +529,7 @@ section #container-prosseguir #prosseguir-compra{
     height: 25px;
     width: 46px;
     border-radius: 5px;
-    background-color: #2C2C2C; /*------------------------------------ cor preta --------------------------------------*/
+    background-color: #087E8B; /*------------------------NUMEROS SELECIONADOS------------ cor preta --------------------------------------*/
     color: #FFFFFF;
     font-weight: bolder;
 }
@@ -549,7 +548,7 @@ section #container-prosseguir #prosseguir-compra{
     width: 30px;
     height: 100%;
     border-radius: 0 5px 5px 0;
-    background-color:#656565;
+    background-color:#087E8B;
     color: #2C2C2C;        /*------------------------------------ cor preta --------------------------------------*/
     cursor: pointer;
 }
