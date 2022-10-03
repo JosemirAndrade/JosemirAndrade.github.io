@@ -190,6 +190,7 @@ section #container-info-number-geral{
     color: #FFFFFF;
 }
 .ndisponiveis {
+    color: #ffffff;
     background-color: #C2DACE; /* STATUS DISPONIVEL*/
 }
 .nreservados {
@@ -201,10 +202,10 @@ section #container-info-number-geral{
 }
 .npagos {
     color: #ffffff;
-    background-color:#087E8B; /* STATUS DISPONIVEL*/
+    background-color:#ed093f; /* STATUS DISPONIVEL*/
 }
 .npagos .qnumber {
-    background-color: #C2DACE;
+    background-color: #ed093f;
 }
 #container-info-number{
     display: flex;
@@ -317,12 +318,8 @@ section #mostrar-carinho {
     justify-content: center;
     margin: 2px;
 }
-#quanto-custa {   
-    border-radius: 10px 0 0 10px;
-    background-color: #424242;
-    cursor:default;
-}
 #prosseguir {
+    border-radius: 10px 10px 10px 10px;
     background-color: #087E8B; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
     cursor: pointer;
 }
@@ -356,7 +353,7 @@ section #container-prosseguir #prosseguir-PIX {
     position:fixed;
     margin: auto;
     font-size: 1.5rem;
-    background-color: #087E8B; /*------------------------------------ cor preta --------------------------------------*/
+    background-color: #2C2C2C; /*------------------------------------ cor preta --------------------------------------*/
     transition: all 0.5s;
 }
     .containerPagamento {    
