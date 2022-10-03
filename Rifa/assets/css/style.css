@@ -513,7 +513,7 @@ section #container-prosseguir #prosseguir-compra{
     height: 100px;
     padding: 5px;
     overflow-y: auto;
-    background-color: #fff;
+    background-color: #272727;
     border-radius: 10px;
     margin-top: 5px;
 }
@@ -526,7 +526,7 @@ section #container-prosseguir #prosseguir-compra{
     height: 25px;
     width: 46px;
     border-radius: 5px;
-    background-color: #2C2C2C; /*------------------------NUMEROS SELECIONADOS------------ cor preta --------------------------------------*/
+    background-color: #333333; /*------------------------NUMEROS SELECIONADOS------------ cor preta --------------------------------------*/
     color: #FFFFFF;
     font-weight: bolder;
 }
