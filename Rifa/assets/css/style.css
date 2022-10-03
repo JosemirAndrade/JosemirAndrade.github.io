@@ -117,7 +117,7 @@ section #container-apresentacao {
     text-align: center;
 }
 .tittle-sorteio .info-geral-tittle, .title-premio .info-geral-tittle {
-    border-bottom: 1px solid #F92206;
+    border-bottom: 1px solid #2C2C2C;
     padding: 5px 0;
 }
 .info-geral-conteudo {
@@ -128,7 +128,6 @@ section #container-apresentacao {
     font-size: 0.9rem;
     line-height: 20px;
 }
-/*2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222*/
 .info-geral-conteudo a {
     color: #121211;
 }
@@ -191,7 +190,7 @@ section #container-info-number-geral{
     color: #FFFFFF;
 }
 .ndisponiveis {
-    background-color: #018f19; /* STATUS DISPONIVEL*/
+    background-color: #087E8B; /* STATUS DISPONIVEL*/
 }
 .nreservados {
     color: #ffffff;
@@ -202,10 +201,10 @@ section #container-info-number-geral{
 }
 .npagos {
     color: #ffffff;
-    background-color:#018f19; /* STATUS DISPONIVEL*/
+    background-color:#087E8B; /* STATUS DISPONIVEL*/
 }
 .npagos .qnumber {
-    background-color: #018f19;
+    background-color: #087E8B;
 }
 #container-info-number{
     display: flex;
@@ -318,14 +317,14 @@ section #mostrar-carinho {
     justify-content: center;
     margin: 2px;
 }
-#quanto-custa {
-    border-radius: 10px 0 0 10px;
-    background-color: #424242;
-    cursor:default;
-}
+/*#quanto-custa {   --------------------------------------------------------------------------------------------------------------------------
+    border-radius: 10px 0 0 10px;-------------------------------------------------------------------------------------------------------------
+    background-color: #424242;----------------------------------------------------------------------------------------------------------------
+    cursor:default;---------------------------------------------------------------------------------------------------------------------------
+}*/-------------------------------------------------------------------------------------------------------------------------------------------
 #prosseguir {
     border-radius: 0 10px 10px 0;
-    background-color: #018f19;
+    background-color: #087E8B; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
     cursor: pointer;
 }
 #prosseguir:hover {
@@ -634,7 +633,7 @@ section #container-prosseguir #prosseguir-compra{
     background-color:#6c757d;
 }
 #reservar {
-    background-color:#018f19;
+    background-color:#087E8B;
 }
 #mostrarPIX {
     background-color: #11c76f;
