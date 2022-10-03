@@ -110,14 +110,14 @@ section #container-apresentacao {
     background-color: #E7B9B4;   /*------------------- cor hibisco ---------------------------*/
 }
 .info-geral-tittle {
-    border-bottom: 1px solid #2C2C2C;
+    border-bottom: 1px solid #2C2C2C; /*------------------- cor preta ---------------------------*/
     font-size: 1.2rem;
     padding: 5px;
     width: 95%;
     text-align: center;
 }
 .tittle-sorteio .info-geral-tittle, .title-premio .info-geral-tittle {
-    border-bottom: 1px solid #2C2C2C;
+    border-bottom: 1px solid #2C2C2C;  /*------------------- cor preta ---------------------------*/
     padding: 5px 0;
 }
 .info-geral-conteudo {
@@ -182,7 +182,7 @@ section #container-info-number-geral{
     cursor:context-menu;
 }
 .qnumber {
-    background-color: #2C2C2C;
+    background-color: #2C2C2C; /*-------------------------------- cor preta --------------------------------------
     padding: 3px 5px;
     font-size: 0.9rem;
     border-radius: 5px;
@@ -301,7 +301,7 @@ section #mostrar-carinho {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: #2C2C2C;
+    background-color: #2C2C2C; /*------------------------------------------- cor preta ----------------------------
     color: #FFFFFF;
     width: 100%;
     height: 60px;
@@ -357,10 +357,13 @@ section #container-prosseguir #prosseguir-PIX {
     position:fixed;
     margin: auto;
     font-size: 1.5rem;
-    background-color: #2C2C2C;
+    background-color: #2C2C2C; /*------------------------------------ cor preta --------------------------------------*/
     transition: all 0.5s;
 }
-.containerPagamento {
+/*---------------------------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------------------------------------------------
+    .containerPagamento {    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -433,7 +436,9 @@ section #container-prosseguir #prosseguir-PIX {
 }
 .c6bankButton:hover {
     box-shadow: 0 0 3px #ced0d0;
-}
+}---------------------------------------------------------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------------------------------------------------*/
 #buttonVoltarReserva {
     display: flex;
     justify-content: center;
@@ -458,7 +463,7 @@ section #container-prosseguir #prosseguir-compra{
     max-width: 80%;
     padding: 15px;
     min-height: 480px;
-    background-color: #2C2C2C;
+    background-color: #2C2C2C; /*------------------------------------ cor preta --------------------------------------*/
     color: #FFFFFF;
     border-radius: 10px;
     position:fixed;
@@ -530,7 +535,7 @@ section #container-prosseguir #prosseguir-compra{
     height: 25px;
     width: 46px;
     border-radius: 5px;
-    background-color: #2C2C2C;
+    background-color: #2C2C2C; /*------------------------------------ cor preta --------------------------------------*/
     color: #FFFFFF;
     font-weight: bolder;
 }
@@ -550,7 +555,7 @@ section #container-prosseguir #prosseguir-compra{
     height: 100%;
     border-radius: 0 5px 5px 0;
     background-color:#656565;
-    color: #2C2C2C;
+    color: #2C2C2C;        /*------------------------------------ cor preta --------------------------------------*/
     cursor: pointer;
 }
 #dados-cliente {
