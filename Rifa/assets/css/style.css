@@ -190,18 +190,18 @@ section #container-info-number-geral{
     color: #FFFFFF;
 }
 .ndisponiveis {
-    background-color: #087E8B; /* STATUS DISPONIVEL*/
+    background-color: #C2DACE; /* STATUS DISPONIVEL*/
 }
 .nreservados {
     color: #ffffff;
-    background-color: #f77205; /* STATUS RESERVADO*/
+    background-color: #087E8B; /* STATUS RESERVADO*/
 } 
 .nreservados .qnumber {
-    background-color: #f77205; /* STATUS RESERVADO*/
+    background-color: #087E8B; /* STATUS RESERVADO*/
 }
 .npagos {
     color: #ffffff;
-    background-color:#087E8B; /* STATUS DISPONIVEL*/
+    background-color:#C2DACE; /* STATUS DISPONIVEL*/
 }
 .npagos .qnumber {
     background-color: #087E8B;
@@ -226,7 +226,7 @@ section #container-info-number-geral{
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
-    border-bottom: 1px solid #424242;
+    border-bottom: 1px solid #424242;/*----------------------*/
 }
 .button {
     width: 90px;
