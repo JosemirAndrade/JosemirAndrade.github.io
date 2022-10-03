@@ -8,31 +8,31 @@ let cadastroNumeros = [
     {
         numero: '02- Afiador de faca',
         situacao: 'Disponível',
-        participante: ' ',
+        participante: '',
         clicado: false
     },
     {
         numero: '03- Descanso de panela e colher ',
-        situacao: 'Disponivel',
-        participante: ' ',
+        situacao: 'Disponível',
+        participante: '',
         clicado: false
     },
     {
         numero: '04- Petisqueira',
         situacao: 'Disponível',
-        participante: ' ',
+        participante: '',
         clicado: false
     },
     {
         numero: '05- Escumadeira',
         situacao: 'Disponível',
-        participante: ' ',
+        participante: '',
         clicado: false
     },
     {
         numero: '06- Cabides(conj.)',
-        situacao: 'Disponível',
-        participante: ' ',
+       situacao: 'Disponível',
+        participante: '',
         clicado: false
     },
     {
