@@ -328,7 +328,7 @@ section #mostrar-carinho {
     cursor: pointer;
 }
 #prosseguir:hover {
-    background-color: #018f19;
+    background-color: #087E8B; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
 }
 section #container-prosseguir {
     display: none;
