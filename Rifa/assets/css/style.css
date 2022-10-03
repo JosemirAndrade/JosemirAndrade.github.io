@@ -132,7 +132,7 @@ section #container-apresentacao {
     color: #121211;
 }
 .info-geral-conteudo a:hover {
-    color: #11c76f;
+    color: #121211;
 }
 .info-geral-conteudo span {
     font-size: 1.2rem;
@@ -178,7 +178,7 @@ section #container-info-number-geral{
     margin: 3px 3px;
     border-radius: 5px;
     font-size: 1rem;
-    background-color: #C2DACE;
+    background-color: #087E8B;
     cursor:context-menu;
 }
 .qnumber {
@@ -190,7 +190,6 @@ section #container-info-number-geral{
     color: #FFFFFF;
 }
 .ndisponiveis {
-    color: #ffffff;
     background-color: #C2DACE; /* STATUS DISPONIVEL*/
 }
 .nreservados {
@@ -202,10 +201,10 @@ section #container-info-number-geral{
 }
 .npagos {
     color: #ffffff;
-    background-color:#ed093f; /* STATUS DISPONIVEL*/
+    background-color:#087E8B; /* STATUS DISPONIVEL*/
 }
 .npagos .qnumber {
-    background-color: #ed093f;
+    background-color: #087E8B;
 }
 #container-info-number{
     display: flex;
@@ -248,7 +247,7 @@ section #container-info-number-geral{
     color: #FFFFFF;
 }
 .clicado {
-    background-color: #C2DACE;
+    background-color: #087E8B;
     color: #FFFFFF;
 }/*------------------------------------------------Até aqui OK--------------------------------------------*/
 section #container-bilhete {
