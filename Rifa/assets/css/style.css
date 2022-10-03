@@ -204,7 +204,7 @@ section #container-info-number-geral{
     background-color:#087E8B; /* STATUS DISPONIVEL*/
 }
 .npagos .qnumber {
-    background-color: #087E8B;
+    background-color: #C2DACE;
 }
 #container-info-number{
     display: flex;
@@ -226,7 +226,7 @@ section #container-info-number-geral{
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
-    border-bottom: 1px solid #424242;/*----------------------*/
+    border-bottom: 1px solid #E7B9B4;/*--------------painel de números--------*/
 }
 .button {
     width: 90px;
