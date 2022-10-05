@@ -242,10 +242,6 @@ section #container-info-number-geral{
     background-color: #087E8B;
     color: #FFFFFF;
 }
-.pago {
-    background-color: #087E8B;
-    color: #FFFFFF;
-}
 .clicado {
     background-color: #087E8B;
     color: #FFFFFF;
@@ -317,6 +313,10 @@ section #mostrar-carinho {
     justify-content: center;
     margin: 2px;
 }
+#quanto-custa {
+    border-radius: 10px 0 0 10px;
+    background-color: #424242;
+    cursor:default;
 #prosseguir {
     border-radius: 10px 10px 10px 10px;
     background-color: #087E8B; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
