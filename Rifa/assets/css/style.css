@@ -313,10 +313,6 @@ section #mostrar-carinho {
     justify-content: center;
     margin: 2px;
 }
-#quanto-custa {
-    border-radius: 10px 0 0 10px;
-    background-color: #424242;
-    cursor:default;
 #prosseguir {
     border-radius: 10px 10px 10px 10px;
     background-color: #087E8B; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
@@ -355,80 +351,8 @@ section #container-prosseguir #prosseguir-PIX {
     background-color: #2C2C2C; /*------------------------------------ cor preta --------------------------------------*/
     transition: all 0.5s;
 }
-    .containerPagamento {    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-width: 100%;
-    min-height: 200px;
-    border-radius: 10px;
-    background-color: #272727;
-    margin: 2px 0;
-}
-.titleBanco {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: bolder;
-    width: 100%;
-    min-height: 30px;
-    border-radius: 10px 10px 0 0;
-}
-.picpay {
-    background-color: #11c76f;
-}
-.c6bank {
-    background-color: #ced0d0;
-    color: #000000;
-}
-.imgPagamento {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2px 0;
-    width: 130px;
-    height: 130px;
-}
-.imgPagamento img {
-    width: inherit;
-    height: inherit;
-}
-.buttonsPagamento {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 37px;
-    border-radius: 0 0 10px 10px;
-}
-.copiarCodigoPagamento, .enviarComprovantePagamento {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 35px;
-    width: 120px;
-    font-size: 0.78rem;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #272727;
-    color: #FFFFFF;
-}
-.picpayButton {
-    border: 1px solid #11c76f;
-}
-.c6bankButton {
-    border: 1px solid #ced0d0;
-}
-.picpayButton:hover {
-    box-shadow: 0 0 3px #11c76f;
-}
-.c6bankButton:hover {
-    box-shadow: 0 0 3px #ced0d0;
-}
+  
+
 #buttonVoltarReserva {
     display: flex;
     justify-content: center;
