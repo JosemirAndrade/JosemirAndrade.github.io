@@ -68,15 +68,15 @@ function criarNumeros() {
     
   });
   ntodos.innerHTML = cadastroNumeros.length;
-
+  
   let numerosDisponiveis = cadastroNumeros.filter(item => item.situacao === 'Disponível').length;
   ndisponiveis.innerHTML = numerosDisponiveis;
 
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
-  //let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
-  //npagos.innerHTML = numerosPagos;
+  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
+  npagos.innerHTML = numerosPagos;
 }
 
 function clicou(n) {
@@ -98,7 +98,7 @@ function clicou(n) {
       numberId.classList.toggle('clicado');
       if(numberId.classList.contains('clicado')) {
         carrinho.push(item.numero);
-        numSelecionados.innerHTML += `<div id="sel${item.numero}"class="selecionado" contagem="${item.numero}"></div>`;
+        numSelecionados.innerHTML += `<div id="sel${item.numero}"class="selecionado" contagem="${item.numero}"><span>${item.numero}</span></div>`;
       }else {
         carrinho.splice(carrinho.indexOf(item.numero), 1);
         numSelecionados.removeChild(document.getElementById(`sel${item.numero}`));
@@ -114,8 +114,8 @@ function addCarrinho() {
   }else {
     mostrarCarrinho.style.display = 'none';
   }
-  //let quantoCusta = document.querySelector('#quanto-custa');
-  //quantoCusta.innerHTML = `Total: R$ ${carrinho.length * valorNumero},00`;
+  let quantoCusta = document.querySelector('#quanto-custa');
+  quantoCusta.innerHTML = "";
   
 }
 
