@@ -31,7 +31,7 @@ let cadastroNumeros = [
     },
     {
         numero: '06- Cabides(conj.)',
-       situacao: 'Disponível',
+        situacao: 'Disponível',
         participante: '',
         clicado: false
     },
@@ -479,5 +479,4 @@ let cadastroNumeros = [
         participante: '',
         clicado: false
     },
-  
 ];
