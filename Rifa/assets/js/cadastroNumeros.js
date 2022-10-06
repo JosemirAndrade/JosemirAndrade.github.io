@@ -421,9 +421,9 @@ let cadastroNumeros = [
     },
    {
         numero: '71- Colcha de cama (conj)',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Cecilia',
+        clicado: true
     },
    {
         numero: '72- Liquidificador',
