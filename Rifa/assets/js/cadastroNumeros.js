@@ -343,9 +343,9 @@ let cadastroNumeros = [
     },
    {
         numero: '58- Faqueiro',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Maria Santos de Andrade Nascimento',
+        clicado: true
     },
    {
         numero: '59- A ESCOLHA',
