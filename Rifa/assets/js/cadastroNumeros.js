@@ -1,9 +1,9 @@
 let cadastroNumeros = [
     {
         numero: '01- Copo medidor',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Sirliane Daila da Silva ',
+        clicado: true
     },
     {
         numero: '02- Afiador de faca',
@@ -19,9 +19,9 @@ let cadastroNumeros = [
     },
     {
         numero: '04- Petisqueira',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Daniela Rocha',
+        clicado: true
     },
     {
         numero: '05- Escumadeira',
