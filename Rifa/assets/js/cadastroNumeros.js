@@ -445,9 +445,9 @@ let cadastroNumeros = [
     },
    {
         numero: '75- Batedeira',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Rafaela Mesquita Vasconcelos',
+        clicado: true
     },
    {
         numero: '76- Cafeteira',
