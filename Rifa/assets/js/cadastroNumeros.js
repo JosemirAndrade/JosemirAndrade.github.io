@@ -439,9 +439,9 @@ let cadastroNumeros = [
     },
    {
         numero: '74- Ferro de passar roupa',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Francisca Isabele do nascimento',
+        clicado: true
     },
    {
         numero: '75- Batedeira',
