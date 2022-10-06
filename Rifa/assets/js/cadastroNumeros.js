@@ -426,10 +426,10 @@ let cadastroNumeros = [
         clicado: false
     },
    {
-        numero: '72- Travessa de vidro grande',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        numero: '72- Liquidificador',
+        situacao: 'Reservado',
+        participante: 'Kátia',
+        clicado: true
     },
    {
         numero: '73- Sanduicheira',
@@ -469,9 +469,9 @@ let cadastroNumeros = [
     },
    {
         numero: '79- Panela de pressão grande',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Vanda Santos',
+        clicado: true
     },
    {
         numero: '80- Processador',
