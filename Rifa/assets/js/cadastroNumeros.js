@@ -217,9 +217,9 @@ let cadastroNumeros = [
     },
    {
         numero: '37- Frigideira pequena',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Elizabete Santos',
+        clicado: true
     },
    {
         numero: '38- Conjunto de canecas',
