@@ -37,9 +37,9 @@ let cadastroNumeros = [
     },
     {
         numero: '07- Descascador de legumes',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Rita Nilce Ribeiro de Almeida',
+        clicado: true
     },
     {
         numero: '08- Conjunto de peneiras',
@@ -91,9 +91,9 @@ let cadastroNumeros = [
     },
    {
         numero: '16- Pano de prato (4un)',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Rita Nilce Ribeiro de Almeida',
+        clicado: true
     },
    {
         numero: '17- Cesto de roupas',
