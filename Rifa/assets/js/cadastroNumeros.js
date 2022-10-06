@@ -277,9 +277,9 @@ let cadastroNumeros = [
     },
    {
         numero: '47- Travessa de vidro pequena',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Maria Valdirene Paiva',
+        clicado: true
     },
    {
         numero: '48- A ESCOLHA',
@@ -325,9 +325,9 @@ let cadastroNumeros = [
     },
    {
         numero: '55- Leiteira',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Douglas Soares',
+        clicado: true
     },
    {
         numero: '56- Jarra de suco',
