@@ -128,7 +128,7 @@ let cadastroNumeros = [
    {
         numero: '22- A ESCOLHA',
         situacao: 'Reservado',
-        participante: 'Geruza Pereira Souza dos Santos',
+        participante: 'Geruza Pereira Souza',
         clicado: true
     },
    {
@@ -193,9 +193,9 @@ let cadastroNumeros = [
     },
    {
         numero: '33- Cuscuzeira',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Cláudia paiva',
+        clicado: true
     },
    {
         numero: '34- Potes plásticos multiuso (conj)',
@@ -278,7 +278,7 @@ let cadastroNumeros = [
    {
         numero: '47- Travessa de vidro pequena',
         situacao: 'Reservado',
-        participante: 'Maria Valdirene Paiva',
+        participante: 'Valdirene Paiva',
         clicado: true
     },
    {
