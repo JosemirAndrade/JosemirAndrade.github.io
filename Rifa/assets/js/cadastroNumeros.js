@@ -127,9 +127,9 @@ let cadastroNumeros = [
     },
    {
         numero: '22- A ESCOLHA',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Geruza Pereira Souza dos Santos',
+        clicado: true
     },
    {
         numero: '23- Potes Plásticos Multiuso (conj)',
