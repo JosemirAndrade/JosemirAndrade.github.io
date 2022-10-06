@@ -67,9 +67,9 @@ let cadastroNumeros = [
     },
     {
         numero: '12- Baldes plásticos (2un)',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Glauton José',
+        clicado: true
     },
    {
         numero: '13- Lixeira pra pia e banheiro',
@@ -121,15 +121,15 @@ let cadastroNumeros = [
     },
    {
         numero: '21- Jogo de xícaras',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Klaudeny Ferreira Gomes',
+        clicado: true
     },
    {
         numero: '22- A ESCOLHA',
-        situacao: 'Reservado',
-        participante: 'Geruza Pereira Souza',
-        clicado: true
+        situacao: 'Disponível',
+        participante: '',
+        clicado: false
     },
    {
         numero: '23- Potes Plásticos Multiuso (conj)',
@@ -397,9 +397,9 @@ let cadastroNumeros = [
     },
    {
         numero: '67- Rede',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Geruza Pereira Souza',
+        clicado: true
     },
    {
         numero: '68- Panela pequena (conj)',
