@@ -331,9 +331,9 @@ let cadastroNumeros = [
     },
    {
         numero: '56- Jarra de suco',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Solon',
+        clicado: true
     },
    {
         numero: '57- Conjunto de copos',
