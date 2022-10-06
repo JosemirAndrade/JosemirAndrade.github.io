@@ -229,9 +229,9 @@ let cadastroNumeros = [
     },
    {
         numero: '39- Garrafa de café',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Valéria',
+        clicado: true
     },
    {
         numero: '40- A ESCOLHA',
