@@ -97,9 +97,9 @@ let cadastroNumeros = [
     },
    {
         numero: '17- Cesto de roupas',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Carlos Anderson',
+        clicado: true
     },
    {
         numero: '18- Kit Toalha de mão',
@@ -337,9 +337,9 @@ let cadastroNumeros = [
     },
    {
         numero: '57- Conjunto de copos',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Maria Izeuda',
+        clicado: true
     },
    {
         numero: '58- Faqueiro',
