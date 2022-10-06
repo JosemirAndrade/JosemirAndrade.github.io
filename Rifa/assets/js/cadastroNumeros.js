@@ -175,9 +175,9 @@ let cadastroNumeros = [
     },
    {
         numero: '30- Escorredor de pratos',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Genilson',
+        clicado: true
     },
    {
         numero: '31- Bacias plásticas pequenas (conj)',
