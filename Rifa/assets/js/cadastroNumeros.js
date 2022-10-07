@@ -241,9 +241,9 @@ let cadastroNumeros = [
     },
    {
         numero: '41- Jogo de lençol casal',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Suzane Fernandes Castro',
+        clicado: true
     },
    {
         numero: '42- Fruteira',
