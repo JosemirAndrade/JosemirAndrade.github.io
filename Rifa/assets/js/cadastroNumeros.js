@@ -7,9 +7,9 @@ let cadastroNumeros = [
     },
     {
         numero: '02- Afiador de faca',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Socorro Brandão',
+        clicado: true
     },
     {
         numero: '03- Descanso de panela e colher ',
@@ -109,9 +109,9 @@ let cadastroNumeros = [
     },
    {
         numero: '19- Tábua de corte',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Socorro Brandão',
+        clicado: true
     },
    {
         numero: '20- Toalha de rosto (4un)',
