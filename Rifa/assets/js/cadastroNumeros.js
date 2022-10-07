@@ -55,9 +55,9 @@ let cadastroNumeros = [
     },
     {
         numero: '10- Kit tapete pra banheiro',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Renata Lúcia Fonteles;',
+        clicado: true
     },
     {
         numero: '11- Jogo americano',
