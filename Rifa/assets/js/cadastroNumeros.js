@@ -61,9 +61,9 @@ let cadastroNumeros = [
     },
     {
         numero: '11- Jogo americano',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Pan',
+        clicado: true
     },
     {
         numero: '12- Baldes plásticos (2un)',
