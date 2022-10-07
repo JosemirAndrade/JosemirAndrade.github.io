@@ -145,9 +145,9 @@ let cadastroNumeros = [
     },
    {
         numero: '25- Toalha de banho (2un)',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Valéria (amiga Ariele)',
+        clicado: true
     },
    {
         numero: '26- Conjunto de bandejas',
@@ -265,9 +265,9 @@ let cadastroNumeros = [
     },
    {
         numero: '45- Kit sobremesa',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Luana Vasconcelos Soares Rios',
+        clicado: true
     },
    {
         numero: '46- Conjunto de taças',
