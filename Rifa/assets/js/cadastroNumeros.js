@@ -361,9 +361,9 @@ let cadastroNumeros = [
     },
    {
         numero: '61- Jarra de vidro grande',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Pan',
+        clicado: true
     },
    {
         numero: '62- A ESCOLHA',
