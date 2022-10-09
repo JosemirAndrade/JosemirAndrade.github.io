@@ -43,9 +43,9 @@ let cadastroNumeros = [
     },
     {
         numero: '08- Conjunto de peneiras',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Janaina Maria Mesquita',
+        clicado: true
     },
     {
         numero: '09- Cesta de pão',
