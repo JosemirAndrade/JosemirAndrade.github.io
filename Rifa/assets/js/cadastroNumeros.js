@@ -415,9 +415,9 @@ let cadastroNumeros = [
     },
    {
         numero: '70- Conjunto de pratos fundos',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Cláudio Paiva',
+        clicado: true
     },
    {
         numero: '71- Colcha de cama (conj)',
