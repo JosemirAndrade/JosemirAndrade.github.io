@@ -84,7 +84,7 @@ let cadastroNumeros = [
         clicado: true 
     },
    {
-        numero: '15- Conjunto de conchas',
+        numero: '15 - Conjunto de conchas',
         situacao: 'Reservado',
         participante: 'Bia da Juvita',
         clicado: true
@@ -127,9 +127,9 @@ let cadastroNumeros = [
     },
    {
         numero: '22- A ESCOLHA',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado ',
+        participante: 'Bia da Juvita',
+        clicado: true
     },
    {
         numero: '23- Potes Plásticos Multiuso (conj)',
