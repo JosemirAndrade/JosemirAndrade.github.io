@@ -115,9 +115,9 @@ let cadastroNumeros = [
     },
    {
         numero: '20- Toalha de rosto (4un)',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Maria Letícia da Silva Monteiro',
+        clicado: true
     },
    {
         numero: '21- Jogo de xícaras',
@@ -373,9 +373,9 @@ let cadastroNumeros = [
     },
    {
         numero: '63- Travessa de vidro grande',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Alice Araújo de Vasconcelos',
+        clicado: true
     },
    {
         numero: '64- Travesseiros(2 un)',
