@@ -79,15 +79,15 @@ let cadastroNumeros = [
     },
    {
         numero: '14- Ralador',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado ',
+        participante: 'Bia da Juvita',
+        clicado: true 
     },
    {
         numero: '15- Conjunto de conchas',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Bia da Juvita',
+        clicado: true
     },
    {
         numero: '16- Pano de prato (4un)',
@@ -283,9 +283,9 @@ let cadastroNumeros = [
     },
    {
         numero: '48- A ESCOLHA',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Renata - dep',
+        clicado: true
     },
    {
         numero: '49- Pratos de sobremesa',
