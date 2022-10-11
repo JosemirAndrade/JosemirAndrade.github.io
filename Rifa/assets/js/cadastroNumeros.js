@@ -79,9 +79,9 @@ let cadastroNumeros = [
     },
    {
         numero: '14- Ralador',
-        situacao: 'Reservado ',
+        situacao: 'Reservado',
         participante: 'Bia da Juvita',
-        clicado: true 
+        clicado: true
     },
    {
         numero: '15 - Conjunto de conchas',
@@ -127,7 +127,7 @@ let cadastroNumeros = [
     },
    {
         numero: '22- A ESCOLHA',
-        situacao: 'Reservado ',
+        situacao: 'Reservado',
         participante: 'Bia da Juvita',
         clicado: true
     },
@@ -139,9 +139,9 @@ let cadastroNumeros = [
     },
    {
         numero: '24- Saladeira',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Maria Araújo - CVP',
+        clicado: true
     },
    {
         numero: '25- Toalha de banho (2un)',
@@ -169,9 +169,9 @@ let cadastroNumeros = [
     },
    {
         numero: '29- A ESCOLHA',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Mariana',
+        clicado: true
     },
    {
         numero: '30- Escorredor de pratos',
@@ -205,9 +205,9 @@ let cadastroNumeros = [
     },
    {
         numero: '35- Formas de pudim',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Cibele',
+        clicado: true
     },
    {
         numero: '36- A ESCOLHA',
@@ -313,9 +313,9 @@ let cadastroNumeros = [
     },
    {
         numero: '53- Frigideira grande',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Valdenia - CVP',
+        clicado: true
     },
    {
         numero: '54- Conjunto de pratos rasos',
