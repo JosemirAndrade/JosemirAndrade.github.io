@@ -231,7 +231,7 @@ let cadastroNumeros = [
         numero: '39- Garrafa de café',
         situacao: 'Ok',
         participante: 'Valéria',
-        clicado: true
+        clicado: false
     },
    {
         numero: '40- A ESCOLHA',
