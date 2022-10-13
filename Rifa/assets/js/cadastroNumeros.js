@@ -98,7 +98,7 @@ let cadastroNumeros = [
    {
         numero: '17- Cesto de roupas',
         situacao: 'Reservado',
-        participante: 'Carlos Anderson',
+        participante: 'ok - Carlos Anderson',
         clicado: true
     },
    {
@@ -230,7 +230,7 @@ let cadastroNumeros = [
    {
         numero: '39- Garrafa de café',
         situacao: 'Reservado',
-        participante: 'ok- Valéria',
+        participante: 'ok - Valéria',
         clicado: true
     },
    {
@@ -338,7 +338,7 @@ let cadastroNumeros = [
    {
         numero: '57- Conjunto de copos',
         situacao: 'Reservado',
-        participante: 'Maria Izeuda',
+        participante: 'ok - Maria Izeuda',
         clicado: true
     },
    {
@@ -422,7 +422,7 @@ let cadastroNumeros = [
    {
         numero: '71- Colcha de cama (conj)',
         situacao: 'Reservado',
-        participante: 'Cecilia',
+        participante: 'ok - Cecilia',
         clicado: true
     },
    {
