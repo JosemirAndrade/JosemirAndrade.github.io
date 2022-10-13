@@ -8,7 +8,7 @@ let numSelecionados = document.querySelector('#num-selecionados');
 let ntodos = document.querySelector('.ntodos .qnumber');
 let ndisponiveis = document.querySelector('.ndisponiveis .qnumber');
 let nreservados = document.querySelector('.nreservados .qnumber');
-let npagos = document.querySelector('.npagos .qnumber');
+let nok = document.querySelector('.nok .qnumber');
 let valorPagar = document.querySelector('#valor-pagar span');
 let inputNome = document.querySelector('#nome');
 let inputCelular = document.querySelector('#celular');
@@ -57,8 +57,8 @@ criarNumeros()
 function criarNumeros() {
   cadastroNumeros.filter(item => {
     if(item.numero !== '') {
-      if(item.situacao === 'Pago') {
-        containerNumbers.innerHTML += `<button class="button pago" id="${item.numero}" onclick="clicou('${item.numero}')">${item.numero}</button>`;
+      if(item.situacao === 'ok') {
+        containerNumbers.innerHTML += `<button class="button ok" id="${item.numero}" onclick="clicou('${item.numero}')">${item.numero}</button>`;
       }else if(item.situacao === 'Reservado') {
         containerNumbers.innerHTML += `<button class="button reservado" id="${item.numero}" onclick="clicou('${item.numero}')">${item.numero}</button>`;
       }else {
@@ -75,8 +75,8 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
-  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
-  npagos.innerHTML = numerosPagos;
+  let numerosok = cadastroNumeros.filter(item => item.situacao === 'ok').length;
+  nok.innerHTML = numerosOk;
 }
 
 function clicou(n) {
@@ -87,7 +87,7 @@ function clicou(n) {
   carrinho.sort((a,b) => a- b);
 
   cadastroNumeros.filter(item => {
-    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'Pago')) {
+    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'ok')) {
       mostrarBilhete.style.display = 'flex';
       mostrarNumero.innerHTML = `Bilhete: ${item.numero}`;
       mostrarSituacao.innerHTML = `Status: ${item.situacao}`;
