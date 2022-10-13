@@ -229,7 +229,7 @@ let cadastroNumeros = [
     },
    {
         numero: '39- Garrafa de café',
-        situacao: 'ok',
+        situacao: 'Ok',
         participante: 'Valéria',
         clicado: true
     },
