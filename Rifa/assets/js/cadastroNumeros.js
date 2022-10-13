@@ -31,9 +31,9 @@ let cadastroNumeros = [
     },
     {
         numero: '06- Cabides(conj.)',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Francisco Andrade Sales Júnior',
+        clicado: true
     },
     {
         numero: '07- Descascador de legumes',
