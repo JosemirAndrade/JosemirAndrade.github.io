@@ -57,7 +57,7 @@ criarNumeros()
 function criarNumeros() {
   cadastroNumeros.filter(item => {
     if(item.numero !== '') {
-      if(item.situacao === 'ok') {
+      if(item.situacao === 'Ok') {
         containerNumbers.innerHTML += `<button class="button ok" id="${item.numero}" onclick="clicou('${item.numero}')">${item.numero}</button>`;
       }else if(item.situacao === 'Reservado') {
         containerNumbers.innerHTML += `<button class="button reservado" id="${item.numero}" onclick="clicou('${item.numero}')">${item.numero}</button>`;
@@ -75,7 +75,7 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
-  let numerosok = cadastroNumeros.filter(item => item.situacao === 'ok').length;
+  let numerosOk = cadastroNumeros.filter(item => item.situacao === 'Ok').length;
   nok.innerHTML = numerosOk;
 }
 
@@ -87,7 +87,7 @@ function clicou(n) {
   carrinho.sort((a,b) => a- b);
 
   cadastroNumeros.filter(item => {
-    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'ok')) {
+    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'Ok')) {
       mostrarBilhete.style.display = 'flex';
       mostrarNumero.innerHTML = `Bilhete: ${item.numero}`;
       mostrarSituacao.innerHTML = `Status: ${item.situacao}`;
