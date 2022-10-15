@@ -319,9 +319,9 @@ let cadastroNumeros = [
     },
    {
         numero: '54- Conjunto de pratos rasos',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Maria Aparecida Mendes Moura',
+        clicado: true
     },
    {
         numero: '55- Leiteira',
