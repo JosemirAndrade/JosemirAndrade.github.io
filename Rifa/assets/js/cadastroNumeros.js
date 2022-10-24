@@ -379,9 +379,9 @@ let cadastroNumeros = [
     },
    {
         numero: '64- Travesseiros(2 un)',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Daniel Freitas',
+        clicado: true
     },
    {
         numero: '65- Tigela(2 un)',
