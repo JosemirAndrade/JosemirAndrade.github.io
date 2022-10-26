@@ -151,9 +151,9 @@ let cadastroNumeros = [
     },
    {
         numero: '26- Conjunto de bandejas',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Jaqueline',
+        clicado: true
     },
    {
         numero: '27- Potes pra microndas e freezer',
