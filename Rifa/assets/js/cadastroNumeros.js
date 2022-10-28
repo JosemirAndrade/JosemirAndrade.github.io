@@ -409,9 +409,9 @@ let cadastroNumeros = [
     },
    {
         numero: '69- A ESCOLHA',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Bernardo Diniz Barros Junior',
+        clicado: true
     },
    {
         numero: '70- Conjunto de pratos fundos',
