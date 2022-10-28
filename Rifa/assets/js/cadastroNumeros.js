@@ -176,7 +176,7 @@ let cadastroNumeros = [
    {
         numero: '30- Escorredor de pratos',
         situacao: 'Reservado',
-        participante: 'Genilson',
+        participante: 'ok - Genilson',
         clicado: true
     },
    {
@@ -410,7 +410,7 @@ let cadastroNumeros = [
    {
         numero: '69- A ESCOLHA',
         situacao: 'Reservado',
-        participante: 'Bernardo Diniz Barros Junior',
+        participante: 'ok - Bernardo Diniz Barros Junior',
         clicado: true
     },
    {
@@ -428,13 +428,13 @@ let cadastroNumeros = [
    {
         numero: '72- Liquidificador',
         situacao: 'Reservado',
-        participante: 'Kátia',
+        participante: 'ok - Kátia',
         clicado: true
     },
    {
         numero: '73- Sanduicheira',
         situacao: 'Reservado',
-        participante: 'Juliana',
+        participante: 'ok - Juliana',
         clicado: true
     },
    {
