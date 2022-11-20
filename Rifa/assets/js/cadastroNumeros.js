@@ -206,7 +206,7 @@ let cadastroNumeros = [
    {
         numero: '35- Formas de pudim',
         situacao: 'Reservado',
-        participante: 'Cibele',
+        participante: 'ok - Cibele',
         clicado: true
     },
    {
@@ -218,7 +218,7 @@ let cadastroNumeros = [
    {
         numero: '37- Frigideira pequena',
         situacao: 'Reservado',
-        participante: 'Elizabete Santos',
+        participante: 'ok - Elizabete Santos',
         clicado: true
     },
    {
@@ -344,7 +344,7 @@ let cadastroNumeros = [
    {
         numero: '58- Faqueiro',
         situacao: 'Reservado',
-        participante: 'Maria Santos de Andrade Nascimento',
+        participante: 'ok - Maria Santos de Andrade Nascimento',
         clicado: true
     },
    {
@@ -470,7 +470,7 @@ let cadastroNumeros = [
    {
         numero: '79- Panela de pressão grande',
         situacao: 'Reservado',
-        participante: 'Vanda Santos',
+        participante: 'ok - Vanda Santos',
         clicado: true
     },
    {
