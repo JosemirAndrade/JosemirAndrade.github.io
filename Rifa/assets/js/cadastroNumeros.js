@@ -457,9 +457,9 @@ let cadastroNumeros = [
     },
    {
         numero: '77- Espremedor de frutas',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Débora Carvalho - CREDE',
+        clicado: true
     },
    {
         numero: '78- Tábua de passar roupa',
