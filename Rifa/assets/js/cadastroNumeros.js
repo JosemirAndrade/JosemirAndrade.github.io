@@ -163,9 +163,9 @@ let cadastroNumeros = [
     },
    {
         numero: '28- Kit tapete de cozinha',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Elis Regina de Freitas',
+        clicado: true
     },
    {
         numero: '29- A ESCOLHA',
