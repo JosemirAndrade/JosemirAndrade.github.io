@@ -49,9 +49,9 @@ let cadastroNumeros = [
     },
     {
         numero: '09- Cesta de pão',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Ricardo Landin',
+        clicado: true
     },
     {
         numero: '10- Kit tapete pra banheiro',
@@ -146,7 +146,7 @@ let cadastroNumeros = [
    {
         numero: '25- Toalha de banho (2un)',
         situacao: 'Reservado',
-        participante: 'Valéria (amiga Ariele)',
+        participante: 'ok - Valéria (amiga Ariele)',
         clicado: true
     },
    {
