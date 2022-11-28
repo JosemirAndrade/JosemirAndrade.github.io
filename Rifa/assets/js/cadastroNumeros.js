@@ -49,9 +49,9 @@ let cadastroNumeros = [
     },
     {
         numero: '09- Cesta de pão',
-        situacao: 'Reservado',
-        participante: 'Ricardo Landin',
-        clicado: true
+        situacao: 'Disponivel',
+        participante: '',
+        clicado: false
     },
     {
         numero: '10- Kit tapete pra banheiro',
@@ -110,7 +110,7 @@ let cadastroNumeros = [
    {
         numero: '19- Tábua de corte',
         situacao: 'Reservado',
-        participante: 'Socorro Brandão',
+        participante: 'ok - Socorro Brandão',
         clicado: true
     },
    {
@@ -164,7 +164,7 @@ let cadastroNumeros = [
    {
         numero: '28- Kit tapete de cozinha',
         situacao: 'Reservado',
-        participante: 'Elis Regina de Freitas',
+        participante: 'ok - Elis Regina de Freitas',
         clicado: true
     },
    {
@@ -314,7 +314,7 @@ let cadastroNumeros = [
    {
         numero: '53- Frigideira grande',
         situacao: 'Reservado',
-        participante: 'Valdenia - CVP',
+        participante: 'ok - Valdenia - CVP',
         clicado: true
     },
    {
@@ -391,9 +391,9 @@ let cadastroNumeros = [
     },
    {
         numero: '66- Potes de vidro',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'JORGE RICARDO LANDIM CASSIANO',
+        clicado: true
     },
    {
         numero: '67- Rede',
