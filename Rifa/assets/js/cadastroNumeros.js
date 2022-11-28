@@ -140,7 +140,7 @@ let cadastroNumeros = [
    {
         numero: '24- Saladeira',
         situacao: 'Reservado',
-        participante: 'Maria Araújo - CVP',
+        participante: 'ok - Maria Araújo - CVP',
         clicado: true
     },
    {
@@ -194,7 +194,7 @@ let cadastroNumeros = [
    {
         numero: '33- Cuscuzeira',
         situacao: 'Reservado',
-        participante: 'Cláudia paiva',
+        participante: 'ok - Cláudia paiva',
         clicado: true
     },
    {
@@ -278,7 +278,7 @@ let cadastroNumeros = [
    {
         numero: '47- Travessa de vidro pequena',
         situacao: 'Reservado',
-        participante: 'Valdirene Paiva',
+        participante: 'ok - Valdirene Paiva',
         clicado: true
     },
    {
@@ -326,7 +326,7 @@ let cadastroNumeros = [
    {
         numero: '55- Leiteira',
         situacao: 'Reservado',
-        participante: 'Douglas Soares',
+        participante: 'ok - Douglas Soares',
         clicado: true
     },
    {
