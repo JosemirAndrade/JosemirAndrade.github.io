@@ -440,7 +440,7 @@ let cadastroNumeros = [
    {
         numero: '74- Ferro de passar roupa',
         situacao: 'Reservado',
-        participante: 'Francisca Isabele do nascimento',
+        participante: 'ok - Francisca Isabele do nascimento',
         clicado: true
     },
    {
