@@ -266,7 +266,7 @@ let cadastroNumeros = [
    {
         numero: '45- Kit sobremesa',
         situacao: 'Reservado',
-        participante: 'Luana Vasconcelos Soares Rios',
+        participante: 'ok - Luana Vasconcelos Soares Rios',
         clicado: true
     },
    {
