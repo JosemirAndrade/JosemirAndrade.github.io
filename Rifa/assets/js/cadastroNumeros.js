@@ -320,7 +320,7 @@ let cadastroNumeros = [
    {
         numero: '54- Conjunto de pratos rasos',
         situacao: 'Reservado',
-        participante: 'Maria Aparecida Mendes Moura',
+        participante: 'ok - Maria Aparecida Mendes Moura',
         clicado: true
     },
    {
