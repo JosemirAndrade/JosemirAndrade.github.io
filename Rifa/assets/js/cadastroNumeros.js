@@ -32,7 +32,7 @@ let cadastroNumeros = [
     {
         numero: '06- Cabides(conj.)',
         situacao: 'Reservado',
-        participante: 'Francisco Andrade Sales Júnior',
+        participante: 'ok - Francisco Andrade Sales Júnior',
         clicado: true
     },
     {
