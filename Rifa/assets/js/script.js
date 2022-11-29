@@ -75,8 +75,8 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
-  let numerosOk = cadastroNumeros.filter(item => item.situacao === 'Ok').length;
-  nok.innerHTML = numerosOk;
+  let numerosok = cadastroNumeros.filter(item => item.situacao === 'ok').length;
+  nok.innerHTML = numerosok;
 }
 
 function clicou(n) {
@@ -87,7 +87,7 @@ function clicou(n) {
   carrinho.sort((a,b) => a- b);
 
   cadastroNumeros.filter(item => {
-    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'Ok')) {
+    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'ok')) {
       mostrarBilhete.style.display = 'flex';
       mostrarNumero.innerHTML = `Bilhete: ${item.numero}`;
       mostrarSituacao.innerHTML = `Status: ${item.situacao}`;
