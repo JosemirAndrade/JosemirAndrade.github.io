@@ -87,7 +87,7 @@ function clicou(n) {
   carrinho.sort((a,b) => a- b);
 
   cadastroNumeros.filter(item => {
-    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'ok')) {
+    if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'Pago')) {
       mostrarBilhete.style.display = 'flex';
       mostrarNumero.innerHTML = `Bilhete: ${item.numero}`;
       mostrarSituacao.innerHTML = `Status: ${item.situacao}`;
