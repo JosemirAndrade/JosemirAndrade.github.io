@@ -7,7 +7,7 @@ let cadastroNumeros = [
     },
     {
         numero: '02- Afiador de faca',
-        situacao: 'Reservado',
+        situacao: 'ok',
         participante: 'ok - Socorro Brandão',
         clicado: true
     },
