@@ -8,7 +8,7 @@ let numSelecionados = document.querySelector('#num-selecionados');
 let ntodos = document.querySelector('.ntodos .qnumber');
 let ndisponiveis = document.querySelector('.ndisponiveis .qnumber');
 let nreservados = document.querySelector('.nreservados .qnumber');
-let nok = document.querySelector('.nok .qnumber');
+let npagos = document.querySelector('.npagos .qnumber');
 let valorPagar = document.querySelector('#valor-pagar span');
 let inputNome = document.querySelector('#nome');
 let inputCelular = document.querySelector('#celular');
@@ -57,7 +57,7 @@ criarNumeros()
 function criarNumeros() {
   cadastroNumeros.filter(item => {
     if(item.numero !== '') {
-      if(item.situacao === 'Ok') {
+      if(item.situacao === 'Pago') {
         containerNumbers.innerHTML += `<button class="button ok" id="${item.numero}" onclick="clicou('${item.numero}')">${item.numero}</button>`;
       }else if(item.situacao === 'Reservado') {
         containerNumbers.innerHTML += `<button class="button reservado" id="${item.numero}" onclick="clicou('${item.numero}')">${item.numero}</button>`;
@@ -75,8 +75,8 @@ function criarNumeros() {
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
 
-  let numerosok = cadastroNumeros.filter(item => item.situacao === 'ok').length;
-  nok.innerHTML = numerosok;
+  let numerosPagos = cadastroNumeros.filter(item => item.situacao === 'Pago').length;
+  npagos.innerHTML = numerosPagos;
 }
 
 function clicou(n) {
