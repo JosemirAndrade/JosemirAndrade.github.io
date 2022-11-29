@@ -199,11 +199,12 @@ section #container-info-number-geral{
 .nreservados .qnumber {
     background-color: #087E8B; /* STATUS RESERVADO*/
 }
-.nok {
-    color: #ffffff;
-    background-color:#016615; /* STATUS DISPONIVEL*/
+
+.npagos {
+    color: #FFFFFF;
+    background-color:#016615;
 }
-.nok .qnumber {
+.npagos .qnumber {
     background-color: #016615;
 }
 #container-info-number{
