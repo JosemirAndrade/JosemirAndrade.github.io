@@ -38,7 +38,7 @@ let cadastroNumeros = [
     {
         numero: '07- Descascador de legumes',
         situacao: 'Reservado',
-        participante: 'Rita Nilce Ribeiro de Almeida',
+        participante: 'ok - Rita Nilce Ribeiro de Almeida',
         clicado: true
     },
     {
@@ -56,7 +56,7 @@ let cadastroNumeros = [
     {
         numero: '10- Kit tapete pra banheiro',
         situacao: 'Reservado',
-        participante: 'Renata Lúcia Fonteles;',
+        participante: 'ok - Renata Lúcia Fonteles;',
         clicado: true
     },
     {
@@ -92,7 +92,7 @@ let cadastroNumeros = [
    {
         numero: '16- Pano de prato (4un)',
         situacao: 'Reservado',
-        participante: 'Rita Nilce Ribeiro de Almeida',
+        participante: 'ok - Rita Nilce Ribeiro de Almeida',
         clicado: true
     },
    {
@@ -116,7 +116,7 @@ let cadastroNumeros = [
    {
         numero: '20- Toalha de rosto (4un)',
         situacao: 'Reservado',
-        participante: 'Maria Letícia da Silva Monteiro',
+        participante: '0k - Maria Letícia da Silva Monteiro',
         clicado: true
     },
    {
@@ -211,9 +211,9 @@ let cadastroNumeros = [
     },
    {
         numero: '36- A ESCOLHA',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'ok - Cláudio Paiva',
+        clicado: true
     },
    {
         numero: '37- Frigideira pequena',
@@ -416,7 +416,7 @@ let cadastroNumeros = [
    {
         numero: '70- Conjunto de pratos fundos',
         situacao: 'Reservado',
-        participante: 'Cláudio Paiva',
+        participante: 'ok - Cláudio Paiva',
         clicado: true
     },
    {
