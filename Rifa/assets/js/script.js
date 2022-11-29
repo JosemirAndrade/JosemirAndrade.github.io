@@ -74,9 +74,6 @@ function criarNumeros() {
 
   let numerosReservados = cadastroNumeros.filter(item => item.situacao === 'Reservado').length;
   nreservados.innerHTML = numerosReservados;
-
-  let numerosOk = cadastroNumeros.filter(item => item.situacao === 'Ok').length;
-  nok.innerHTML = numerosOk;
 }
 
 function clicou(n) {
