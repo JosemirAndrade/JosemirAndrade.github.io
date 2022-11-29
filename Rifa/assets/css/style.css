@@ -199,14 +199,6 @@ section #container-info-number-geral{
 .nreservados .qnumber {
     background-color: #087E8B; /* STATUS RESERVADO*/
 }
-
-.nok {
-    color: #FFFFFF;
-    background-color:#016615;
-}
-.nok .qnumber {
-    background-color: #016615;
-}
 #container-info-number{
     display: flex;
     flex-direction: row;
@@ -243,9 +235,6 @@ section #container-info-number-geral{
     background-color: #087E8B;
     color: #FFFFFF;
 }
-.ok {
-    background-color: #016615;
-    color: #FFFFFF;
 .clicado {
     background-color: #087E8B;
     color: #FFFFFF;
