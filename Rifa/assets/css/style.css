@@ -200,11 +200,11 @@ section #container-info-number-geral{
     background-color: #087E8B; /* STATUS RESERVADO*/
 }
 
-.npagos {
+.nok {
     color: #FFFFFF;
     background-color:#016615;
 }
-.npagos .qnumber {
+.nok .qnumber {
     background-color: #016615;
 }
 #container-info-number{
@@ -243,7 +243,7 @@ section #container-info-number-geral{
     background-color: #087E8B;
     color: #FFFFFF;
 }
-.pago {
+.ok {
     background-color: #016615;
     color: #FFFFFF;
 .clicado {
