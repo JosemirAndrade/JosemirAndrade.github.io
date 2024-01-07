@@ -396,7 +396,7 @@ let cadastroNumeros = [
         clicado: false
     },
     {
-        numero: '67- Fralda G + ',
+        numero: '67- Fralda G + Lenço Umedecido ',
         situacao: 'Disponível',
         participante: '',
         clicado: false
