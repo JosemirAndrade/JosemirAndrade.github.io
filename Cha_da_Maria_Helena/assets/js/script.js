@@ -77,7 +77,7 @@ function criarNumeros() {
 }
 
 function clicou(n) {
-  let mostrarNumero = document.querySelector('#number-bilhete');
+ // let mostrarNumero = document.querySelector('#number-bilhete');
   let mostrarSituacao = document.querySelector('#situacao');
   let mostrarParticipante = document.querySelector('#participante');
 
@@ -86,10 +86,10 @@ function clicou(n) {
   cadastroNumeros.filter(item => {
     if(n === item.numero && (item.situacao === 'Reservado' || item.situacao === 'Ok')) {
       mostrarBilhete.style.display = 'flex';
-      mostrarNumero.innerHTML = `Bilhete: ${item.numero}`;
+     // mostrarNumero.innerHTML = `Bilhete: ${item.numero}`;
       mostrarSituacao.innerHTML = `Status: ${item.situacao}`;
       mostrarParticipante.innerHTML = `Participante: ${item.participante}`;
-      mostrarTelefone.innerHTML = `Celular: ${item.telefone}`;
+     //mostrarTelefone.innerHTML = `Celular: ${item.telefone}`;
     }else if(n === item.numero && item.situacao === 'Disponível'){
       let numberId = document.getElementById(`${item.numero}`);
       numberId.classList.toggle('clicado');
