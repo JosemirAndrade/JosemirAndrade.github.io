@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #F3E7F9	;   /*------------------- fundo = creme	 ---------------------------*/
+    background-color: #E0B5FB	;   /*------------------- fundo = creme	 ---------------------------*/
 }
 header {
     display: flex;
@@ -21,7 +21,7 @@ header {
     background: #272727;
     color: #FFFFFF;
     text-align: center;
-    box-shadow: 0 0 20px #F3E7F9;
+    box-shadow: 0 0 20px #E0B5FB;
 }
 section {
     width: 100%;
@@ -145,11 +145,11 @@ section #container-info-number-geral{
     justify-content: center;
     align-items: center;
     width: 95%;
-    background-color: #F3E7F9;
+    background-color: #E0B5FB;
 }
 #container-info-number {
-    border-top: 1px solid #F3E7F9;
-    border-bottom: 1px solid #F3E7F9; 
+    border-top: 1px solid #E0B5FB;
+    border-bottom: 1px solid #E0B5FB; 
     margin-bottom: 10px;
     padding: 5px 0;
 }
@@ -217,7 +217,7 @@ section #container-info-number-geral{
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
-    border-bottom: 1px solid #F3E7F9;/*--------------painel de números--------*/
+    border-bottom: 1px solid #E0B5FB;/*--------------painel de números--------*/
 }
 .button {
     width: 100px;
@@ -230,11 +230,11 @@ section #container-info-number-geral{
     cursor: pointer;
 }
 .reservado {
-    background-color: #E0B5FB;
+    background-color: #CC8BF4;
     color: #FFFFFF;
 }
 .clicado {
-    background-color: #E0B5FB;;
+    background-color: #CC8BF4;;
     color: #FFFFFF;
 }/*------------------------------------------------Até aqui OK--------------------------------------------*/
 section #container-bilhete {
@@ -306,11 +306,11 @@ section #mostrar-carinho {
 }
 #prosseguir {
     border-radius: 10px 10px 10px 10px;
-    background-color: #E0B5FB; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
+    background-color: #CC8BF4; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
     cursor: pointer;
 }
 #prosseguir:hover {
-    background-color: #E0B5FB; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
+    background-color: #CC8BF4; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
 }
 section #container-prosseguir {
     display: none;
@@ -352,7 +352,7 @@ section #container-prosseguir #prosseguir-PIX {
     width: 120px;
     margin-top: 2px;
     border-radius: 5px;
-    background-color:#E0B5FB;
+    background-color:#CC8BF4;
     cursor: pointer;
     font-size: 1rem;
 }
@@ -414,7 +414,7 @@ section #container-prosseguir #prosseguir-compra{
     width: 30px;
     height: 100%;
     border-radius: 0 5px 5px 0;
-    background-color:#E0B5FB;
+    background-color:#CC8BF4;
     color: #2C2C2C;        /*------------------------------------ cor preta --------------------------------------*/
     cursor: pointer;
 }
@@ -433,7 +433,7 @@ section #container-prosseguir #prosseguir-compra{
     margin: 10px 0;
 }
 #dados-cliente span a {
-    color:  #E0B5FB;
+    color:  #CC8BF4;
     text-decoration: none;
 }
 #dados-cliente legend {
@@ -451,7 +451,7 @@ section #container-prosseguir #prosseguir-compra{
     margin: 2px 0;
 }
 .dados:hover{ 
-    box-shadow: 0 0 1px #E0B5FB;
+    box-shadow: 0 0 1px #CC8BF4;
 }
 #celular, #nome {
     height: inherit;
@@ -498,10 +498,10 @@ section #container-prosseguir #prosseguir-compra{
     background-color:#6c757d;
 }
 #reservar {
-    background-color:#E0B5FB;
+    background-color:#CC8BF4;
 }
 #mostrarPIX {
-    background-color: #E0B5FB;
+    background-color: #CC8BF4;
 }
 footer{
     display: flex;
