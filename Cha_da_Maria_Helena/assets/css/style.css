@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #E0B5FB	;   /*------------------- fundo = creme	 ---------------------------*/
+    background-color: #F3E7F9	;   /*------------------- fundo = creme	 ---------------------------*/
 }
 header {
     display: flex;
@@ -21,7 +21,7 @@ header {
     background: #272727;
     color: #FFFFFF;
     text-align: center;
-    box-shadow: 0 0 20px #E0B5FB;
+    box-shadow: 0 0 20px #F3E7F9;
 }
 section {
     width: 100%;
@@ -145,11 +145,11 @@ section #container-info-number-geral{
     justify-content: center;
     align-items: center;
     width: 95%;
-    background-color: #E0B5FB;
+    background-color: #F3E7F9;
 }
 #container-info-number {
-    border-top: 1px solid #E0B5FB;
-    border-bottom: 1px solid #E0B5FB; 
+    border-top: 1px solid #F3E7F9;
+    border-bottom: 1px solid #F3E7F9; 
     margin-bottom: 10px;
     padding: 5px 0;
 }
@@ -217,14 +217,14 @@ section #container-info-number-geral{
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
-    border-bottom: 1px solid #E0B5FB;/*--------------painel de números--------*/
+    border-bottom: 1px solid #F3E7F9;/*--------------painel de números--------*/
 }
 .button {
     width: 100px;
     height: 100px;
     border-radius: 5px;
     border: none;
-    background-color: #E6C0FB; /*---- botões de números- escuro CC8BF4  mais claro E0B5FB bem claro #E6C0FB ---------------*/
+    background-color: #E6C0FB; /*---- botões de números- escuro CC8BF4  mais claro agora (F3E7F9)  antes -> E0B5FB bem claro #E6C0FB ---------------*/
     color: #000000;
     font-size: 0.95rem;
     cursor: pointer;
