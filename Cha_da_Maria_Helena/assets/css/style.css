@@ -62,15 +62,15 @@ section #container-apresentacao {
 }
 .slideImgArea1 {
     width: 1;
-    background-image: url(../images/tp.jpg);
+    background-image: url(../images/tpp.jpg);
 }
 .slideImgArea2 {
     width: 0;
-    background-image: url(../images/tp.jpg);
+    background-image: url(../images/tpp.jpg);
 }
 .slideImgArea3 {
     width: 0;
-    background-image: url(../images/tp.jpg);
+    background-image: url(../images/tpp.jpg);
 }
 #container {
     display: flex;
