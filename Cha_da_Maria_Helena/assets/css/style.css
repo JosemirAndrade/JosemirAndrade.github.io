@@ -91,7 +91,7 @@ section #container-apresentacao {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #CC8BF4		;   /*------------------- cor hibisco ---------------------------*/
+    background-color: #E0B5FB		;   /*------------------- cor hibisco ---------------------------*/
     margin: 5px 5px;
     width: 320px;
     height: 410px;
@@ -107,7 +107,7 @@ section #container-apresentacao {
     border-radius: 5px;
     margin: 10px 0;
     color: #1f1e1e;
-    background-color: #CC8BF4;   /*------------------- cor hibisco ---------------------------*/
+    background-color: #E0B5FB;   /*------------------- cor hibisco ---------------------------*/
 }
 .info-geral-tittle {
     border-bottom: 1px solid #2C2C2C; /*------------------- cor preta ---------------------------*/
@@ -178,7 +178,7 @@ section #container-info-number-geral{
     margin: 3px 3px;
     border-radius: 5px;
     font-size: 1rem;
-    background-color: #CC8BF4;
+    background-color: #E0B5FB;
     cursor:context-menu;
 }
 .qnumber {
@@ -193,7 +193,7 @@ section #container-info-number-geral{
     background-color: #E6C0FB; /* STATUS DISPONIVEL*/
 }
 .nreservados {
-    background-color: #CC8BF4; /* STATUS RESERVADO*/
+    background-color: #E0B5FB; /* STATUS RESERVADO*/
 } 
 
 
@@ -224,17 +224,17 @@ section #container-info-number-geral{
     height: 100px;
     border-radius: 5px;
     border: none;
-    background-color: #E6C0FB; /*---- botões de números- escuro CC8BF4  mais claro agora (F3E7F9)  antes -> E0B5FB bem claro #E6C0FB ---------------*/
+    background-color: #E6C0FB; /*---- botões de números- escuro agora (E0B5FB) antes -> CC8BF4  mais claro agora (F3E7F9)  antes -> E0B5FB bem claro #E6C0FB ---------------*/
     color: #000000;
     font-size: 0.95rem;
     cursor: pointer;
 }
 .reservado {
-    background-color: #CC8BF4;
+    background-color: #E0B5FB;
     color: #FFFFFF;
 }
 .clicado {
-    background-color: #CC8BF4;;
+    background-color: #E0B5FB;;
     color: #FFFFFF;
 }/*------------------------------------------------Até aqui OK--------------------------------------------*/
 section #container-bilhete {
@@ -306,11 +306,11 @@ section #mostrar-carinho {
 }
 #prosseguir {
     border-radius: 10px 10px 10px 10px;
-    background-color: #CC8BF4; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
+    background-color: #E0B5FB; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
     cursor: pointer;
 }
 #prosseguir:hover {
-    background-color: #CC8BF4; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
+    background-color: #E0B5FB; /* ------------------------------------------ verde escuro ----------------------------------------------------*/
 }
 section #container-prosseguir {
     display: none;
@@ -352,7 +352,7 @@ section #container-prosseguir #prosseguir-PIX {
     width: 120px;
     margin-top: 2px;
     border-radius: 5px;
-    background-color:#CC8BF4;
+    background-color:#E0B5FB;
     cursor: pointer;
     font-size: 1rem;
 }
@@ -414,7 +414,7 @@ section #container-prosseguir #prosseguir-compra{
     width: 30px;
     height: 100%;
     border-radius: 0 5px 5px 0;
-    background-color:#CC8BF4;
+    background-color:#E0B5FB;
     color: #2C2C2C;        /*------------------------------------ cor preta --------------------------------------*/
     cursor: pointer;
 }
@@ -433,7 +433,7 @@ section #container-prosseguir #prosseguir-compra{
     margin: 10px 0;
 }
 #dados-cliente span a {
-    color:  #CC8BF4;
+    color:  #E0B5FB;
     text-decoration: none;
 }
 #dados-cliente legend {
@@ -451,7 +451,7 @@ section #container-prosseguir #prosseguir-compra{
     margin: 2px 0;
 }
 .dados:hover{ 
-    box-shadow: 0 0 1px #CC8BF4;
+    box-shadow: 0 0 1px #E0B5FB;
 }
 #celular, #nome {
     height: inherit;
@@ -498,10 +498,10 @@ section #container-prosseguir #prosseguir-compra{
     background-color:#6c757d;
 }
 #reservar {
-    background-color:#CC8BF4;
+    background-color:#E0B5FB;
 }
 #mostrarPIX {
-    background-color: #CC8BF4;
+    background-color: #E0B5FB;
 }
 footer{
     display: flex;
