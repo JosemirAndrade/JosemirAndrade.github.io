@@ -25,9 +25,9 @@ let cadastroNumeros = [
     },
     {
         numero: '05- Fralda P + Sabonete Liquido',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Ariel',
+        clicado: true
     },
     {
         numero: '06- Fralda P + Sabonete Liquido',
@@ -163,9 +163,9 @@ let cadastroNumeros = [
     },
     {
         numero: '28- Fralda P + Colônia ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Rafa',
+        clicado: true
     },
     {
         numero: '29- Fralda P + Colônia ',
@@ -385,9 +385,9 @@ let cadastroNumeros = [
     },
     {
         numero: '65- Fralda M + Pomada ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Josiele',
+        clicado: true
     },
     {
         numero: '66- Fralda M + Pomada ',
@@ -547,9 +547,9 @@ let cadastroNumeros = [
     },
     {
         numero: '92- Fralda G + Lenço Umedecido ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Alexsandra dos Santos Alves',
+        clicado: true
     },
     {
         numero: '93- Fralda G + Lenço Umedecido ',
