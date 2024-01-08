@@ -156,7 +156,7 @@ function reservar() {
   if(inputNome.value === ''|| inputCelular.value === '') {
     inputNome.placeholder = 'OBRIGATÓRIO ';
     inputCelular.placeholder = 'OBRIGATÓRIO ';
-  }else if(inputCelular.value.length < 15) {
+  }else if(inputCelular.value.length < 14) {
     legendCelular.innerHTML = 'INCOMPLETO:';
     legendCelular.style.color = '#FF0000';
   }else {
