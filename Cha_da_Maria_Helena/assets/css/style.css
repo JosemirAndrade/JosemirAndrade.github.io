@@ -62,15 +62,15 @@ section #container-apresentacao {
 }
 .slideImgArea1 {
     width: 1;
-    background-image: url(../images/topo.jpg);
+    background-image: url(../images/top.jpg);
 }
 .slideImgArea2 {
     width: 0;
-    background-image: url(../images/topo.jpg);
+    background-image: url(../images/top.jpg);
 }
 .slideImgArea3 {
     width: 0;
-    background-image: url(../images/topo.jpg);
+    background-image: url(../images/top.jpg);
 }
 #container {
     display: flex;
