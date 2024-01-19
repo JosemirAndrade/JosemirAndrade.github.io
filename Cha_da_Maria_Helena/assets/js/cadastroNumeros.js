@@ -295,9 +295,9 @@ let cadastroNumeros = [
     },
     {
         numero: '50- Fralda M + Pomada ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Vitoria Maria Albuquerque Candido',
+        clicado: true
     },
     {
         numero: '51- Fralda M + Pomada ',
