@@ -241,9 +241,9 @@ let cadastroNumeros = [
     },
     {
         numero: '41- Fralda M + Pomada ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'DANIEL FREITAS',
+        clicado: true
     },
     {
         numero: '42- Fralda M + Pomada ',
