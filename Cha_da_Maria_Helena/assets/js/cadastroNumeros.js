@@ -12,7 +12,7 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '03- Fralda P + Sabonete Liquido ',
+        numero: '03- Fralda P + Sabonete Liquido',
         situacao: 'Disponível',
         participante: ' ',
         clicado: false
@@ -55,9 +55,9 @@ let cadastroNumeros = [
     },
     {
         numero: '10- Fralda P + Sabonete Liquido ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Carlos Santos',
+        clicado: true
     },
     {
         numero: '11- Fralda P + Sabonete Liquido ',
