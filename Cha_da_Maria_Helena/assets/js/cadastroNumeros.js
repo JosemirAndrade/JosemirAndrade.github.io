@@ -211,9 +211,9 @@ let cadastroNumeros = [
     },
     {
         numero: '36- Fralda M + Pomada ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Vanda Santos',
+        clicado: true
     },
     {
         numero: '37- Fralda M + Pomada ',
@@ -396,10 +396,10 @@ let cadastroNumeros = [
         clicado: false
     },
     {
-        numero: '67- Fralda G + ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        numero: '67- Fralda G + Pomada',
+        situacao: 'Reservado',
+        participante: 'Vanda Santos',
+        clicado: true
     },
     {
         numero: '68- Fralda G + Lenço Umedecido ',
