@@ -19,9 +19,9 @@ let cadastroNumeros = [
     },
     {
         numero: '04- Fralda P + Sabonete Liquido ',
-        situacao: 'Disponível',
-        participante: ' ',
-        clicado: false
+        situacao: 'Reservado',
+        participante: ' ELIONETE ',
+        clicado: true
     },
     {
         numero: '05- Fralda P + Sabonete Liquido',
@@ -61,9 +61,9 @@ let cadastroNumeros = [
     },
     {
         numero: '11- Fralda P + Sabonete Liquido ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Raimundo Denizar',
+        clicado: true
     },
     {
         numero: '12- Fralda P + Sabonete Liquido ',
@@ -139,9 +139,9 @@ let cadastroNumeros = [
     },
     {
         numero: '24- Fralda P + Colônia ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Marcos Muniz ',
+        clicado: true
     },
     {
         numero: 'OK - 25- Fralda P + Colônia',
