@@ -331,9 +331,9 @@ let cadastroNumeros = [
     },
     {
         numero: '56- Fralda M + Pomada ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'DENISE',
+        clicado: true
     },
     {
         numero: '57- Fralda M + Pomada ',
