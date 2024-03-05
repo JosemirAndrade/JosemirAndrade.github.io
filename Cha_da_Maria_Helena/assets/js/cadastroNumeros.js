@@ -175,9 +175,9 @@ let cadastroNumeros = [
     },
     {
         numero: '30- Fralda P + Colônia ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Raimunda Nonata de Almeida Parente',
+        clicado: true
     },
     {
         numero: '31- Fralda P + Colônia ',
