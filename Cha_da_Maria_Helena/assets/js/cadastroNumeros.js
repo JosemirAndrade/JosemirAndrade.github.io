@@ -109,9 +109,9 @@ let cadastroNumeros = [
     },
     {
         numero: '19- Fralda P + Colônia ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Rosamailde',
+        clicado: true
     },
     {
         numero: '20- Fralda P + Colônia ',
@@ -546,7 +546,7 @@ let cadastroNumeros = [
         clicado: false
     },
     {
-        numero: '92- Fralda G + Lenço Umedecido ',
+        numero: 'OK - 92- Fralda G + Lenço Umedecido ',
         situacao: 'Reservado',
         participante: 'Alexsandra dos Santos Alves',
         clicado: true
