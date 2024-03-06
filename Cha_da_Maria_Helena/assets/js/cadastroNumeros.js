@@ -535,9 +535,9 @@ let cadastroNumeros = [
     },
     {
         numero: '90- Fralda G + Lenço Umedecido ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Rita Nilce',
+        clicado: true
     },
     {
         numero: '91- Fralda G + Lenço Umedecido ',
