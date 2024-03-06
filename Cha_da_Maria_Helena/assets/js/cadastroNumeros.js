@@ -49,9 +49,9 @@ let cadastroNumeros = [
     },
     {
         numero: '09- Fralda P + Sabonete Liquido ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Márcio Chaves',
+        clicado: true
     },
     {
         numero: '0k - 10- Fralda P + Sabonete Liquido ',
