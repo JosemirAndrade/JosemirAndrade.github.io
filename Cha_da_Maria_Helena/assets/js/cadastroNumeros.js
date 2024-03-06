@@ -265,9 +265,9 @@ let cadastroNumeros = [
     },
     {
         numero: '45- Fralda M + Pomada ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Isabel Sousa',
+        clicado: true
     },
     {
         numero: '46- Fralda M + Pomada ',
@@ -289,9 +289,9 @@ let cadastroNumeros = [
     },
     {
         numero: '49- Fralda M + Pomada ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Sara Oliveira',
+        clicado: true
     },
     {
         numero: '50- Fralda M + Pomada ',
