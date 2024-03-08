@@ -511,9 +511,9 @@ let cadastroNumeros = [
     },
     {
         numero: '86- Fralda G + Lenço Umedecido ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Socorro Betânia',
+        clicado: true
     },
     {
         numero: '87- Fralda G + Lenço Umedecido ',
