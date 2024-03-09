@@ -133,9 +133,9 @@ let cadastroNumeros = [
     },
     {
         numero: '23- Fralda P + Colônia ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Maria Marlene',
+        clicado: true
     },
     {
         numero: '24- Fralda P + Colônia ',
