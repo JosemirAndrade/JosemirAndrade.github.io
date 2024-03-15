@@ -114,7 +114,7 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '20- Fralda P + Colônia ',
+        numero: 'OK - 20- Fralda P + Colônia ',
         situacao: 'Reservado',
         participante: 'Maria Santos',
         clicado: true
