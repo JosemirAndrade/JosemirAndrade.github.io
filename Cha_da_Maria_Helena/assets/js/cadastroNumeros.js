@@ -157,9 +157,9 @@ let cadastroNumeros = [
     },
     {
         numero: '27- Fralda P + Colônia ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Raquel Pinto',
+        clicado: true
     },
     {
         numero: '28- Fralda P + Colônia ',
@@ -205,9 +205,9 @@ let cadastroNumeros = [
     },
     {
         numero: '35- Fralda M + Pomada ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Solon',
+        clicado: true
     },
     {
         numero: 'OK - 36- Fralda M + Pomada ',
