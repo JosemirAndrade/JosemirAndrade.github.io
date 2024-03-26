@@ -445,9 +445,9 @@ let cadastroNumeros = [
     },
     {
         numero: '75- Fralda G + Lenço Umedecido ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Geruza Pereira Souza dos Santos',
+        clicado: true
     },
     {
         numero: '76- Fralda G + Lenço Umedecido ',
