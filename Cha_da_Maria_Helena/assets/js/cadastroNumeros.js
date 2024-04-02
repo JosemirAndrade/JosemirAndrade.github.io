@@ -1,4 +1,4 @@
-Flet cadastroNumeros = [
+let cadastroNumeros = [
     {
         numero: '01- Fralda P + Sabonete Liquido',
         situacao: 'Reservado',
