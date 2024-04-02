@@ -1,4 +1,4 @@
-let cadastroNumeros = [
+Flet cadastroNumeros = [
     {
         numero: '01- Fralda P + Sabonete Liquido',
         situacao: 'Reservado',
@@ -138,7 +138,7 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '24- Fralda P + Colônia ',
+        numero: 'OK - 24- Fralda P + Colônia ',
         situacao: 'Reservado',
         participante: 'Marcos Muniz ',
         clicado: true
