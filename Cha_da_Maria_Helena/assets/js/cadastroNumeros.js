@@ -6,7 +6,7 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '02- Fralda P + Sabonete Liquido ',
+        numero: 'OK - 02- Fralda P + Sabonete Liquido ',
         situacao: 'Reservado',
         participante: ' Nacelio Santos ',
         clicado: true
@@ -180,10 +180,10 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '31- Fralda P + Colônia ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        numero: 'OK - 31- Fralda P + Colônia ',
+        situacao: 'Reservado',
+        participante: 'josiele',
+        clicado: true
     },
     {
         numero: 'OK - 32- Fralda P + Colônia',
@@ -384,7 +384,7 @@ let cadastroNumeros = [
         clicado: false
     },
     {
-        numero: '65- Fralda M + Pomada ',
+        numero: 'OK - 65- Fralda M + Pomada ',
         situacao: 'Reservado',
         participante: 'Josiele',
         clicado: true
