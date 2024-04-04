@@ -60,7 +60,7 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '0k - 11- Fralda P + Sabonete Liquido ',
+        numero: '11- Fralda P + Sabonete Liquido ',
         situacao: 'Reservado',
         participante: 'Raimundo Denizar',
         clicado: true
@@ -217,9 +217,9 @@ let cadastroNumeros = [
     },
     {
         numero: '37- Fralda M + Pomada ',
-        situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        situacao: 'Reservado',
+        participante: 'Geise',
+        clicado: True
     },
     {
         numero: '38- Fralda M + Pomada ',
