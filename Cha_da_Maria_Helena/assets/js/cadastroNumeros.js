@@ -12,7 +12,7 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '03- Fralda P + Sabonete Liquido',
+        numero: 'OK - 03- Fralda P + Sabonete Liquido',
         situacao: 'Reservado',
         participante: 'Douglas Soares',
         clicado: true
@@ -132,7 +132,7 @@ let cadastroNumeros = [
         clicado: false
     },
     {
-        numero: '23- Fralda P + Colônia ',
+        numero: 'OK - 23- Fralda P + Colônia ',
         situacao: 'Reservado',
         participante: 'Maria Marlene',
         clicado: true
@@ -444,7 +444,7 @@ let cadastroNumeros = [
         clicado: false
     },
     {
-        numero: '75- Fralda G + Lenço Umedecido ',
+        numero: 'OK - 75- Fralda G + Lenço Umedecido ',
         situacao: 'Reservado',
         participante: 'Geruza Pereira Souza dos Santos',
         clicado: true
