@@ -219,7 +219,7 @@ let cadastroNumeros = [
         numero: '37- Fralda M + Pomada ',
         situacao: 'Reservado',
         participante: 'Geise',
-        clicado: True
+        clicado: true
     },
     {
         numero: '38- Fralda M + Pomada ',
