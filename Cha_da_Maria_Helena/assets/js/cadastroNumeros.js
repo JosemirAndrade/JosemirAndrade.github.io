@@ -18,7 +18,7 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '04- Fralda P + Sabonete Liquido ',
+        numero: 'OK - 04- Fralda P + Sabonete Liquido ',
         situacao: 'Reservado',
         participante: ' ELIONETE ',
         clicado: true
@@ -90,7 +90,7 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '16- Fralda P + Sabonete Liquido ',
+        numero: 'OK - 16- Fralda P + Sabonete Liquido ',
         situacao: 'Reservado',
         participante: 'Jonaya Gomes',
         clicado: true
@@ -216,7 +216,7 @@ let cadastroNumeros = [
         clicado: true
     },
     {
-        numero: '37- Fralda M + Pomada ',
+        numero: 'OK - 37- Fralda M + Pomada ',
         situacao: 'Reservado',
         participante: 'Geise',
         clicado: true
@@ -354,10 +354,10 @@ let cadastroNumeros = [
         clicado: false
     },
     {
-        numero: '60- Fralda M + Pomada ',
+        numero: 'OK - 60- Fralda M + Pomada ',
         situacao: 'Disponível',
-        participante: '',
-        clicado: false
+        participante: 'Tamires SME',
+        clicado: true
     },
     {
         numero: '61- Fralda M + Pomada ',
@@ -396,7 +396,7 @@ let cadastroNumeros = [
         clicado: false
     },
     {
-        numero: '67- Fralda G + Pomada',
+        numero: 'OK - 67- Fralda G + Pomada',
         situacao: 'Reservado',
         participante: 'Vanda Santos',
         clicado: true
